@@ -1,0 +1,943 @@
+!SESSION 2023-11-09 16:31:04.640 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.583
+!MESSAGE DVT Patcher: started
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.584
+!MESSAGE DVT Patcher: begin initializing weaving hook
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.585
+!MESSAGE DVT Patcher: reading patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.855
+!MESSAGE DVT Patcher: patchset [ shell-set-visible-hang ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] is disabled by default
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.855
+!MESSAGE DVT Patcher: patchset [ dump-allocated-swt-resources ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] is disabled by default
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.856
+!MESSAGE DVT Patcher: patchset [ clipboard-wait-for-content-hang ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] is disabled by default
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.856
+!MESSAGE DVT Patcher: skipping filter in patchset [ deadlock-on-startup-bug-502095 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.108.0.v20160602-1232,3.108.1.v20160819-2118] ] for class [ org.eclipse.ui.internal.Workbench$StartupProgressBundleListener ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.857
+!MESSAGE DVT Patcher: skipping patchset [ deadlock-on-startup-bug-502095 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.857
+!MESSAGE DVT Patcher: skipping patchset [ clipboard-wait-for-contents-hang-bug-241957 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.858
+!MESSAGE DVT Patcher: skipping filter in patchset [ compare-viewer-npe ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.compare ] with version [ [3.5.501.v20140817-1445,3.5.501.v20140817-1445] ] for class [ org.eclipse.compare.contentmergeviewer.ContentMergeViewer$ContentMergeViewerLayout ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.858
+!MESSAGE DVT Patcher: skipping patchset [ compare-viewer-npe ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.859
+!MESSAGE DVT Patcher: skipping filter in patchset [ copy-paste-bug-368354-backport ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.8.0.v20120523-1310,3.8.0.v20120523-1310] ] for class [ org.eclipse.ui.texteditor.AbstractTextEditor ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.859
+!MESSAGE DVT Patcher: skipping patchset [ copy-paste-bug-368354-backport ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.860
+!MESSAGE DVT Patcher: skipping filter in patchset [ marker-view-wrong-selection-update-bug-401632 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.ide ] with version [ [3.10.1.v20140828-0944,3.10.1.v20140828-0944] ] for class [ org.eclipse.ui.internal.views.markers.ExtendedMarkersView$8 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.860
+!MESSAGE DVT Patcher: skipping patchset [ marker-view-wrong-selection-update-bug-401632 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.860
+!MESSAGE DVT Patcher: skipping patchset [ stack-overflow-switch-to-editor-bug-544498 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.861
+!MESSAGE DVT Patcher: skipping filter in patchset [ navigation-history-skipped-entries-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.106.1.v20140827-1737,3.106.1.v20140827-1737] ] for class [ org.eclipse.ui.internal.NavigationHistory ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.861
+!MESSAGE DVT Patcher: skipping filter in patchset [ navigation-history-skipped-entries-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.108.3.v20170216-1539,3.108.3.v20170216-1539] ] for class [ org.eclipse.ui.internal.NavigationHistory ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.861
+!MESSAGE DVT Patcher: skipping filter in patchset [ navigation-history-skipped-entries-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.110.1.v20170704-1208,3.110.1.v20170704-1208] ] for class [ org.eclipse.ui.internal.NavigationHistory ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.861
+!MESSAGE DVT Patcher: skipping filter in patchset [ navigation-history-skipped-entries-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.113.0.v20190219-1432,3.113.0.v20190219-1432] ] for class [ org.eclipse.ui.internal.NavigationHistory ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.863
+!MESSAGE DVT Patcher: skipping patchset [ navigation-history-skipped-entries-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.863
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-fix-showinmenu-bug-435284 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.106.1.v20140827-1737,3.106.1.v20140827-1737] ] for class [ org.eclipse.ui.internal.ShowInMenu ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.863
+!MESSAGE DVT Patcher: skipping patchset [ npe-fix-showinmenu-bug-435284 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.864
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-slowed-down-content-assist ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.cdt.ui ] for class [ org.eclipse.cdt.internal.ui.text.contentassist.ParameterGuessingProposal ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.864
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-slowed-down-content-assist ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.cdt.ui ] for class [ org.eclipse.cdt.internal.ui.text.contentassist.ParameterGuessingProposal ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.864
+!MESSAGE DVT Patcher: skipping patchset [ cdt-slowed-down-content-assist ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.865
+!MESSAGE DVT Patcher: skipping filter in patchset [ block-selection-missing-keystrokes ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.8.1.v3834e,3.8.1.v3834e] ] for class [ org.eclipse.swt.custom.StyledText ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.865
+!MESSAGE DVT Patcher: skipping filter in patchset [ block-selection-missing-keystrokes ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.103.0.v20140605-2008,3.103.0.v20140605-2008] ] for class [ org.eclipse.swt.custom.StyledText ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.866
+!MESSAGE DVT Patcher: skipping patchset [ block-selection-missing-keystrokes ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.866
+!MESSAGE DVT Patcher: skipping filter in patchset [ window-workingset-broken-e4 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.106.1.v20140827-1737,3.106.1.v20140827-1737] ] for class [ org.eclipse.ui.internal.WorkbenchPage ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.866
+!MESSAGE DVT Patcher: skipping filter in patchset [ window-workingset-broken-e4 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.107.0.v20150825-2206,3.107.0.v20150825-2206] ] for class [ org.eclipse.ui.internal.WorkbenchPage ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.867
+!MESSAGE DVT Patcher: skipping patchset [ window-workingset-broken-e4 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.867
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-disable-eclipse-css ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.e4.ui.css.core ] with version [ [0.10.100.v20140424-2042,0.10.100.v20140424-2042] ] for class [ org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.868
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-disable-eclipse-css ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.e4.ui.css.core ] with version [ [0.12.1.v20161114-0210,0.12.1.v20161114-0210] ] for class [ org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.869
+!MESSAGE DVT Patcher: skipping patchset [ npe-disable-eclipse-css ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.869
+!MESSAGE DVT Patcher: skipping filter in patchset [ compare-viewer-performance-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.jface.text ] with version [ [3.9.1.v20140827-1810,3.15.100.v20190305-0811] ] for class [ org.eclipse.jface.text.DocumentClone ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.870
+!MESSAGE DVT Patcher: skipping patchset [ compare-viewer-performance-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.870
+!MESSAGE DVT Patcher: skipping filter in patchset [ compare-viewer-performance-fix-2 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.compare ] with version [ [3.5.501.v20140817-1445,3.5.501.v20140817-1445] ] for class [ org.eclipse.compare.internal.DocLineComparator ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.870
+!MESSAGE DVT Patcher: skipping filter in patchset [ compare-viewer-performance-fix-2 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.compare ] with version [ [3.7.1.v20170103-1805,3.7.1200.v20201020-1107] ] for class [ org.eclipse.compare.internal.DocLineComparator ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.871
+!MESSAGE DVT Patcher: patchset [ compare-viewer-performance-fix-2 ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.871
+!MESSAGE DVT Patcher: skipping filter in patchset [ clearcase-activator-message-suppress ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ net.sourceforge.clearcase ] for class [ net.sourceforge.clearcase.ClearCaseCLIImpl ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.871
+!MESSAGE DVT Patcher: skipping filter in patchset [ clearcase-activator-message-suppress ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ net.sourceforge.clearcase ] for class [ net.sourceforge.clearcase.ClearCaseCLIImpl ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.872
+!MESSAGE DVT Patcher: skipping filter in patchset [ clearcase-activator-message-suppress ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ net.sourceforge.clearcase ] for class [ net.sourceforge.clearcase.ClearCaseCLIImpl ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.872
+!MESSAGE DVT Patcher: skipping patchset [ clearcase-activator-message-suppress ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.873
+!MESSAGE DVT Patcher: patchset [ emacs-pref-initializer ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.873
+!MESSAGE DVT Patcher: skipping filter in patchset [ error-marker-refresh-whole-project ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.navigator.resources ] with version [ [3.6.1.v20170823-1443,3.6.1.v20170823-1443] ] for class [ org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.873
+!MESSAGE DVT Patcher: skipping patchset [ error-marker-refresh-whole-project ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.874
+!MESSAGE DVT Patcher: skipping patchset [ linux-segfault-secure-storage ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.874
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.875
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.875
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.875
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.876
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.876
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.877
+!MESSAGE DVT Patcher: skipping filter in patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ com.perforce.team.ui ] for class [ com.perforce.team.ui.PerforceUIPlugin$1 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.878
+!MESSAGE DVT Patcher: skipping patchset [ commands-on-non-ui-thread-preExecute-exception ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.878
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.104.1.v20150825-0743,3.104.1.v20150825-0743] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.878
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.104.2.v20160212-1350,3.104.2.v20160212-1350] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.879
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.105.0.v20160603-0902,3.105.0.v20160603-0902] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.879
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.105.3.v20170228-0512,3.105.3.v20170228-0512] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.879
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.106.0.v20170608-0516,3.106.0.v20170608-0516] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.880
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.106.2.v20171129-0543,3.106.2.v20171129-0543] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.880
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.106.3.v20180329-0507,3.106.3.v20180329-0507] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.881
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.108.0.v20180904-1901,3.108.0.v20180904-1901] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.881
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.110.0.v20190305-0602,3.110.0.v20190305-0602] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.881
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.115.0.v20200831-1002,3.115.0.v20200831-1002] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.881
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.115.100.v20201202-1103,3.115.100.v20201202-1103] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.882
+!MESSAGE DVT Patcher: skipping filter in patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.swt ] with version [ [3.116.0.v20210302-1107,3.116.0.v20210302-1107] ] for class [ org.eclipse.swt.graphics.GC ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.882
+!MESSAGE DVT Patcher: patchset [ windows-private-fonts-gdip-fix ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.883
+!MESSAGE DVT Patcher: skipping filter in patchset [ xml-validate-hidden-folders-bug ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.wst.xml.core ] with version [ [1.1.902.v201501211904,1.1.902.v201501211904] ] for class [ org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.883
+!MESSAGE DVT Patcher: skipping filter in patchset [ xml-validate-hidden-folders-bug ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.wst.xml.core ] with version [ [1.1.1001.v201702270442,1.1.1001.v201702270442] ] for class [ org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.883
+!MESSAGE DVT Patcher: skipping filter in patchset [ xml-validate-hidden-folders-bug ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.wst.xml.core ] with version [ [1.1.1100.v201705012045,1.2.300.v202007191910] ] for class [ org.eclipse.wst.xml.core.internal.validation.core.AbstractNestedValidator ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.885
+!MESSAGE DVT Patcher: patchset [ xml-validate-hidden-folders-bug ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.885
+!MESSAGE DVT Patcher: skipping filter in patchset [ find-replace-large-history-crash-and-preserve-clipboard-content ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.10.1.v20160818-1626,3.10.1.v20160818-1626] ] for class [ org.eclipse.ui.texteditor.FindReplaceDialog ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.885
+!MESSAGE DVT Patcher: skipping filter in patchset [ find-replace-large-history-crash-and-preserve-clipboard-content ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.10.100.v20170426-2021,3.10.100.v20170426-2021] ] for class [ org.eclipse.ui.texteditor.FindReplaceDialog ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.886
+!MESSAGE DVT Patcher: skipping filter in patchset [ find-replace-large-history-crash-and-preserve-clipboard-content ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.11.300.v20190218-2126,3.11.300.v20190218-2126] ] for class [ org.eclipse.ui.texteditor.FindReplaceDialog ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.886
+!MESSAGE DVT Patcher: skipping filter in patchset [ find-replace-large-history-crash-and-preserve-clipboard-content ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.16.0.v20210120-0733,3.16.0.v20210120-0733] ] for class [ org.eclipse.ui.texteditor.FindReplaceDialog ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.886
+!MESSAGE DVT Patcher: skipping filter in patchset [ find-replace-large-history-crash-and-preserve-clipboard-content ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench.texteditor ] with version [ [3.16.200.v20210724-2153,3.16.200.v20210724-2153] ] for class [ org.eclipse.ui.texteditor.FindReplaceDialog ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.887
+!MESSAGE DVT Patcher: patchset [ find-replace-large-history-crash-and-preserve-clipboard-content ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.887
+!MESSAGE DVT Patcher: skipping filter in patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.tm.terminal.control ] with version [ [4.1.0.201512010231,4.2.0.201609191434] ] for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.888
+!MESSAGE DVT Patcher: skipping filter in patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.tm.terminal.control ] with version [ [4.3.0.201706130821,4.3.0.201706130821] ] for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.888
+!MESSAGE DVT Patcher: skipping filter in patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.tm.terminal.control ] with version [ [4.5.0.201808290101,4.5.0.201808290101] ] for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.888
+!MESSAGE DVT Patcher: skipping filter in patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.tm.terminal.control ] with version [ [4.5.100.201901312304,4.5.100.201901312304] ] for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.888
+!MESSAGE DVT Patcher: skipping filter in patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.tm.terminal.control ] with version [ [5.0.0.202009071350,5.0.0.202009071350] ] for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.889
+!MESSAGE DVT Patcher: skipping filter in patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.tm.terminal.control ] with version [ [5.1.0.202103012351,5.1.0.202103012351] ] for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.889
+!MESSAGE DVT Patcher: patchset [ tm-terminal-dvt-mouse-listener-support ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.889
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.8.200.v20140401-1310,3.8.200.v20140401-1310] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.890
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.10.1.v20161106-1856,3.11.0.v20170202-1823] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.890
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.11.200.v20180822-1511,3.11.200.v20180822-1511] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.890
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.11.400.v20190218-1547,3.11.400.v20190218-1547] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.891
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.13.300.v20200812-2334,3.13.300.v20200812-2334] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.891
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.13.400.v20200923-1238,3.13.400.v20200923-1238] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.892
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.14.0.v20210215-0846,3.14.0.v20210215-0846] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.892
+!MESSAGE DVT Patcher: skipping filter in patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.editors ] with version [ [3.14.200.v20210622-1002,3.14.200.v20210622-1002] ] for class [ org.eclipse.ui.internal.editors.text.AnnotationsConfigurationBlock ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.892
+!MESSAGE DVT Patcher: patchset [ npe-annotations-preference-page ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.894
+!MESSAGE DVT Patcher: skipping filter in patchset [ dltk-core-build-modules-index-out-of-bounds ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.dltk.core ] for class [ org.eclipse.dltk.compiler.task.TodoTaskSimpleParser ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.894
+!MESSAGE DVT Patcher: skipping filter in patchset [ dltk-core-build-modules-index-out-of-bounds ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.dltk.core ] for class [ org.eclipse.dltk.compiler.task.TodoTaskSimpleParser ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.894
+!MESSAGE DVT Patcher: skipping patchset [ dltk-core-build-modules-index-out-of-bounds ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.895
+!MESSAGE DVT Patcher: skipping filter in patchset [ command-handler-exception-doubleclick ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.workbench ] with version [ [3.106.1.v20140827-1737,3.106.1.v20140827-1737] ] for class [ org.eclipse.ui.internal.quickaccess.QuickAccessContents$6 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.895
+!MESSAGE DVT Patcher: patchset [ command-handler-exception-doubleclick ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.895
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-scalability-mode-performance ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.cdt.core ] for class [ org.eclipse.cdt.internal.core.model.WorkingCopy ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.896
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-scalability-mode-performance ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.cdt.core ] for class [ org.eclipse.cdt.internal.core.model.WorkingCopy ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.896
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-scalability-mode-performance ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.cdt.core ] for class [ org.eclipse.cdt.internal.core.model.WorkingCopy ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.897
+!MESSAGE DVT Patcher: skipping filter in patchset [ cdt-scalability-mode-performance ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.cdt.core ] for class [ org.eclipse.cdt.internal.core.model.WorkingCopy ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.897
+!MESSAGE DVT Patcher: skipping patchset [ cdt-scalability-mode-performance ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.898
+!MESSAGE DVT Patcher: skipping filter in patchset [ race-condition-fast-partitioning ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.jface.text ] with version [ [3.9.1.v20140827-1810,3.9.1.v20140827-1810] ] for class [ org.eclipse.jface.text.rules.FastPartitioner ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.898
+!MESSAGE DVT Patcher: skipping filter in patchset [ race-condition-fast-partitioning ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.jface.text ] with version [ [3.11.2.v20170220-1911,3.11.2.v20170220-1911] ] for class [ org.eclipse.jface.text.rules.FastPartitioner ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.899
+!MESSAGE DVT Patcher: skipping filter in patchset [ race-condition-fast-partitioning ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.jface.text ] with version [ [3.12.1.v20171114-1359,3.12.1.v20171114-1359] ] for class [ org.eclipse.jface.text.rules.FastPartitioner ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.899
+!MESSAGE DVT Patcher: skipping filter in patchset [ race-condition-fast-partitioning ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.jface.text ] with version [ [3.15.100.v20190305-0811,3.15.100.v20190305-0811] ] for class [ org.eclipse.jface.text.rules.FastPartitioner ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.900
+!MESSAGE DVT Patcher: skipping filter in patchset [ race-condition-fast-partitioning ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.jface.text ] with version [ [3.16.400.v20200807-0831,3.16.400.v20200807-0831] ] for class [ org.eclipse.jface.text.rules.FastPartitioner ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.900
+!MESSAGE DVT Patcher: patchset [ race-condition-fast-partitioning ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.900
+!MESSAGE DVT Patcher: skipping filter in patchset [ delete-resources-leaks ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.core.resources ] with version [ [3.9.1.v20140825-1431,3.13.300.v20190218-2054] ] for class [ org.eclipse.core.internal.resources.ProjectDescriptionReader ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.901
+!MESSAGE DVT Patcher: skipping filter in patchset [ delete-resources-leaks ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.core.resources ] with version [ [3.13.900.v20201105-1507,3.14.0.v20210215-0934] ] for class [ org.eclipse.core.internal.resources.ProjectDescriptionReader ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.901
+!MESSAGE DVT Patcher: skipping filter in patchset [ delete-resources-leaks ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.core.resources ] with version [ [3.15.100.v20210818-1523,3.15.100.v20210818-1523] ] for class [ org.eclipse.core.internal.resources.ProjectDescriptionReader ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.902
+!MESSAGE DVT Patcher: patchset [ delete-resources-leaks ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.902
+!MESSAGE DVT Patcher: skipping filter in patchset [ jobmanager-find-filterout-internaljob ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.core.jobs ] with version [ [3.8.0.v20160509-0411,3.8.0.v20160509-0411] ] for class [ org.eclipse.core.jobs.JobManager ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.902
+!MESSAGE DVT Patcher: skipping filter in patchset [ jobmanager-find-filterout-internaljob ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.core.jobs ] with version [ [3.9.2.v20171030-1027,3.9.2.v20171030-1027] ] for class [ org.eclipse.core.jobs.JobManager ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.903
+!MESSAGE DVT Patcher: skipping filter in patchset [ jobmanager-find-filterout-internaljob ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.core.jobs ] with version [ [3.10.300.v20190215-2048,3.10.300.v20190215-2048] ] for class [ org.eclipse.core.jobs.JobManager ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.903
+!MESSAGE DVT Patcher: patchset [ jobmanager-find-filterout-internaljob ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.904
+!MESSAGE DVT Patcher: skipping filter in patchset [ refactoring-previewers-demote-matchall ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ltk.ui.refactoring ] with version [ [3.7.100.v20140324-1358,3.11.300.v20210112-0706] ] for class [ org.eclipse.ltk.internal.ui.refactoring.DescriptorManager ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.904
+!MESSAGE DVT Patcher: patchset [ refactoring-previewers-demote-matchall ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.905
+!MESSAGE DVT Patcher: patchset [ type-in-newly-opened-file-during-build ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.905
+!MESSAGE DVT Patcher: skipping filter in patchset [ debugger-sourcelookup-memory-leak ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.debug.ui ] with version [ [3.11.202.v20161114-0338,3.11.202.v20161114-0338] ] for class [ org.eclipse.debug.internal.ui.sourcelookup.SourceLookupFacility$LRU ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.906
+!MESSAGE DVT Patcher: skipping patchset [ debugger-sourcelookup-memory-leak ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because no filter matches
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.906
+!MESSAGE DVT Patcher: skipping filter in patchset [ console-hyperlink-detection ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.console ] with version [ [3.6.201.v20161107-0337,3.6.201.v20161107-0337] ] for class [ org.eclipse.ui.console.TextConsoleViewer ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.907
+!MESSAGE DVT Patcher: skipping filter in patchset [ console-hyperlink-detection ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.console ] with version [ [3.7.1.v20170728-0806,3.7.1.v20170728-0806] ] for class [ org.eclipse.ui.console.TextConsoleViewer ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.907
+!MESSAGE DVT Patcher: skipping filter in patchset [ console-hyperlink-detection ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] because there is no bundle [ org.eclipse.ui.console ] with version [ [3.8.400.v20190218-2131,3.8.400.v20190218-2131] ] for class [ org.eclipse.ui.console.TextConsoleViewer ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.908
+!MESSAGE DVT Patcher: patchset [ console-hyperlink-detection ] in patchset container [ C:\Eclipse\dvt_kit-23.1.20-e422-win_64\dvt_eclipse\eclipse\plugins\ro.amiq.dvt.patcher_23.1.20.jar ] will be applied
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:05.908
+!MESSAGE DVT Patcher: end initializing weaving hook
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:08.554
+!MESSAGE DVT Patcher: patch applied for class [ org.eclipse.swt.graphics.GC ] in bundle [ org.eclipse.swt ] with version [ [3.118.0.v20211123-0851,3.118.0.v20211123-0851] ]
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.802
+!MESSAGE DVT Logger: >> Started DVT Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.820
+!MESSAGE DVT Logger: >> Started DVT initialization.
+
+!ENTRY org.eclipse.core.variables 4 120 2023-11-09 16:31:47.838
+!MESSAGE Dynamic variable extension from bundle 'ro.amiq.dvt' overrides existing extension variable 'selected_resource_loc' from bundle 'org.eclipse.debug.ui'
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.861
+!MESSAGE DVT Logger: >> Started EDT Base Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.862
+!MESSAGE DVT Logger: << Ended EDT Base initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.866
+!MESSAGE DVT Logger: >> Started EDT Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.900
+!MESSAGE DVT Logger: >> Started MSDLDT Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.909
+!MESSAGE DVT Logger: >> Started PSSDT Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.913
+!MESSAGE DVT Logger: >> Started SLNDT Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.923
+!MESSAGE DVT Logger: >> Started VHDLDT Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:47.947
+!MESSAGE DVT Logger: >> Started VLOGVT Plugin (version: 23.1.20).
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.042
+!MESSAGE DVT Logger: << Ended DVT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.043
+!MESSAGE DVT Logger: >> Started EDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.083
+!MESSAGE DVT Logger: Using eParser version 20 (built 14-May-2016)
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.086
+!MESSAGE DVT Logger: << Ended EDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.086
+!MESSAGE DVT Logger: >> Started MSDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.096
+!MESSAGE DVT Logger: << Ended MSDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.097
+!MESSAGE DVT Logger: >> Started PSSDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.108
+!MESSAGE DVT Logger: << Ended PSSDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.108
+!MESSAGE DVT Logger: >> Started SLNDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.113
+!MESSAGE DVT Logger: Using eParser version 20 (built 14-May-2016)
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.115
+!MESSAGE DVT Logger: << Ended SLNDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.115
+!MESSAGE DVT Logger: >> Started VHDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.123
+!MESSAGE DVT Logger: << Ended VHDLDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.124
+!MESSAGE DVT Logger: >> Started VLOGDT initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:48.137
+!MESSAGE DVT Logger: << Ended VLOGDT initialization.
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 4 2 2023-11-09 16:31:51.132
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench.swt".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4907)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:445)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:364)
+	at org.eclipse.swt.widgets.Widget.setData(Widget.java:1268)
+	at org.eclipse.e4.ui.css.swt.dom.WidgetElement.setCSSClass(WidgetElement.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.setClassnameAndId(PartRenderingEngine.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.setCSSInfo(SWTPartRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:425)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:994)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeChildrenHandler(PartRenderingEngine.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:228)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.processAddition(ContributionsAnalyzer.java:448)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.addTrimContributions(TrimBarRenderer.java:146)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:118)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:680)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1082)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-09 16:31:51.134
+!MESSAGE Exception occurred while rendering: ro.amiq.dvt.editorfontsize=org.eclipse.e4.ui.model.application.ui.menu.impl.ToolBarImpl@16d61071 (tags: [Draggable], contributorURI: null) (widget: ImageBasedFrame {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer@28dacf31, toBeRendered: true, onTop: false, visible: false, containerData: null, accessibilityPhrase: null)
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4907)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:445)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:364)
+	at org.eclipse.swt.widgets.Widget.setData(Widget.java:1268)
+	at org.eclipse.e4.ui.css.swt.dom.WidgetElement.setCSSClass(WidgetElement.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.setClassnameAndId(PartRenderingEngine.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.setCSSInfo(SWTPartRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:425)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:994)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeChildrenHandler(PartRenderingEngine.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:228)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.processAddition(ContributionsAnalyzer.java:448)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.addTrimContributions(TrimBarRenderer.java:146)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:118)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:680)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1082)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-11-09 16:31:52.303
+!MESSAGE Removing PartDescriptorImpl with the "ro.amiq.dvt.ui.views.DesignHierarchyView" id and the "Design Hierarchy (Old)" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.461
+!MESSAGE DVT Logger: >> Started DVT UI initialization.
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:52.483
+!MESSAGE DVT Patcher: patch applied for class [ org.eclipse.tm.internal.terminal.textcanvas.TextCanvas ] in bundle [ org.eclipse.tm.terminal.control ] with version [ [5.3.0.202107100131,5.3.200.202204200013] ]
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.497
+!MESSAGE DVT Logger: Enabled DVT terminal mouse listener
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.576
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'irun -location -nolog -nohistory' started running
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.576
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'xrun -version -nolog -nohistory' started running
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.577
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'xrun -location -nolog -nohistory' started running
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.577
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'irun -version -nolog -nohistory' started running
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.578
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'sn_which.sh specman.h' started running
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.579
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'irun -location -nolog -nohistory' error occured: Cannot run program "irun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.579
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'irun -location -nolog -nohistory' done: [value=null, error=Cannot run program "irun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified, timedout=false, done=true]
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.580
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'sn_which.sh specman.h' error occured: Cannot run program "sn_which.sh" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.580
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'sn_which.sh specman.h' done: [value=null, error=Cannot run program "sn_which.sh" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified, timedout=false, done=true]
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.582
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'irun -version -nolog -nohistory' error occured: Cannot run program "irun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.582
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'irun -version -nolog -nohistory' done: [value=null, error=Cannot run program "irun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified, timedout=false, done=true]
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.585
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'xrun -location -nolog -nohistory' error occured: Cannot run program "xrun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.586
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'xrun -location -nolog -nohistory' done: [value=null, error=Cannot run program "xrun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified, timedout=false, done=true]
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.587
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'xrun -version -nolog -nohistory' error occured: Cannot run program "xrun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.587
+!MESSAGE DVT Logger: [EXTERNAL PROGRAM OUTPUT] 'xrun -version -nolog -nohistory' done: [value=null, error=Cannot run program "xrun" (in directory "C:\Users\shrkn\AppData\Local\Temp"): CreateProcess error=2, The system cannot find the file specified, timedout=false, done=true]
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.852
+!MESSAGE DVT Logger: << Ended DVT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.881
+!MESSAGE DVT Logger: >> Started EDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.914
+!MESSAGE DVT Logger: << Ended EDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.915
+!MESSAGE DVT Logger: >> Started MSDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.955
+!MESSAGE DVT Logger: << Ended MSDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.958
+!MESSAGE DVT Logger: >> Started PSSDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.966
+!MESSAGE DVT Logger: << Ended PSSDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.967
+!MESSAGE DVT Logger: >> Started SLNDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.976
+!MESSAGE DVT Logger: << Ended SLNDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.977
+!MESSAGE DVT Logger: >> Started VHDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.984
+!MESSAGE DVT Logger: << Ended VHDLDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:52.985
+!MESSAGE DVT Logger: >> Started VLOGDT UI initialization.
+
+!ENTRY ro.amiq.dvt 1 0 2023-11-09 16:31:53.004
+!MESSAGE DVT Logger: << Ended VLOGDT UI initialization.
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:31:55.651
+!MESSAGE DVT Patcher: patch applied for class [ com.mulgasoft.emacsplus.KillRing ] in bundle [ com.mulgasoft.emacsplus ] with version [ 4.3.5 ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:37:36.955
+!MESSAGE DVT Patcher: patch applied for class [ org.eclipse.ui.editors.text.TextFileDocumentProvider$5 ] in bundle [ org.eclipse.ui.editors ] with version [ [3.14.0.v20210215-0846,3.14.300.v20210913-0815] ]
+
+!ENTRY ro.amiq.dvt.patcher 1 0 2023-11-09 16:37:37.045
+!MESSAGE DVT Patcher: patch applied for class [ org.eclipse.jface.text.rules.FastPartitioner ] in bundle [ org.eclipse.jface.text ] with version [ [3.16.500.v20201112-1545,3.20.100.v20220516-0819] ]
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-09 16:38:36.726
+!MESSAGE Failed to evaluate: WithExpression [variable=selection, children=[IterateExpression [type=OR, children=[AdaptExpression [type=org.eclipse.core.resources.IResource, children=[<test property="contentTypeId" args="'kindOf'" value="org.eclipse.core.runtime.xml" plug-in activation: eager/>]]]]]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.core.resources.contentTypeId to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:197)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:79)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:85)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2130)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1660)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1090)
+	at org.eclipse.ui.navigator.CommonViewer.setSelection(CommonViewer.java:373)
+	at org.eclipse.ui.navigator.CommonNavigator.selectReveal(CommonNavigator.java:390)
+	at org.eclipse.ui.wizards.newresource.BasicNewResourceWizard.lambda$0(BasicNewResourceWizard.java:170)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-09 16:38:36.728
+!MESSAGE Failed to evaluate: WithExpression [variable=selection, children=[IterateExpression [type=OR, children=[AdaptExpression [type=org.eclipse.core.resources.IResource, children=[<test property="contentTypeId" args="'kindOf'" value="org.eclipse.core.runtime.xml" plug-in activation: eager/>]]]]]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.core.resources.contentTypeId to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:197)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:79)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:85)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2130)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1660)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1090)
+	at org.eclipse.ui.navigator.CommonViewer.setSelection(CommonViewer.java:373)
+	at org.eclipse.ui.navigator.CommonNavigator.selectReveal(CommonNavigator.java:390)
+	at org.eclipse.ui.wizards.newresource.BasicNewResourceWizard.lambda$0(BasicNewResourceWizard.java:170)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-11-09 16:38:40.469
+!MESSAGE Failed to evaluate: WithExpression [variable=selection, children=[IterateExpression [type=OR, children=[AdaptExpression [type=org.eclipse.core.resources.IResource, children=[<test property="contentTypeId" args="'kindOf'" value="org.eclipse.core.runtime.xml" plug-in activation: eager/>]]]]]]
+!STACK 0
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.core.resources.contentTypeId to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.AdaptExpression.evaluate(AdaptExpression.java:121)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:197)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.WithExpression.evaluate(WithExpression.java:84)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:79)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:109)
+	at org.eclipse.ui.internal.services.EvaluationReference.changed(EvaluationReference.java:103)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.ui.internal.services.EvaluationService$1.changed(EvaluationService.java:79)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:85)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:356)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:372)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2130)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1176)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:466)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1205)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)

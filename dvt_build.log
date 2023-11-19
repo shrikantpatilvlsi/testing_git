@@ -1,0 +1,781 @@
+*** Start analyzing build configuration ***
+Auto-config - Scanning: C:\USC\EE577B\Project\Phase1\Phase1DVT
+Auto-config - VLOG: C:\USC\EE577B\Project\Phase1\Phase1DVT
+Auto-config - Wrote:
+    C:\USC\EE577B\Project\Phase1\Phase1DVT\.dvt\default.build.auto.1
+*** List of included argument files ***
+    Build configuration file:  C:\USC\EE577B\Project\Phase1\Phase1DVT\.dvt\default.build
+    -f C:\USC\EE577B\Project\Phase1\Phase1DVT\.dvt\default.build.auto.1
+*** List of invocations ***
+Invocation #1 +dvt_init+dvt in C:\USC\EE577B\Project\Phase1\Phase1DVT\.dvt\default.build.auto.1 at line 9
+*** Done analyzing build configuration [229 ms] ***
+
+*** Start SystemVerilog build ***
+*** Invocation #1***
+Loading (1) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\NIC.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\NIC.v [34 ms, 138 lines, Verilog_2001] ...
+Loading (2) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cmp.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cmp.v [4 ms, 885 lines, Verilog_2001] ...
+Loading (3) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cpu.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cpu.v [5 ms, 380 lines, Verilog_2001] ...
+Loading (4) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\channel_buffer.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\channel_buffer.v [1 ms, 29 lines, Verilog_2001] ...
+Loading (5) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\input_control.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\input_control.v [1 ms, 29 lines, Verilog_2001] ...
+Loading (6) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [12 ms, 1682 lines, Verilog_2001] ...
+Loading (7) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_router.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_router.v [10 ms, 947 lines, Verilog_2001] ...
+Loading (8) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\output_arbiter.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\output_arbiter.v [1 ms, 60 lines, Verilog_2001] ...
+Loading (9) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\priority_decider.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\priority_decider.v [0 ms, 22 lines, Verilog_2001] ...
+Loading (10) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\register_file.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\register_file.v [10 ms, 151 lines, Verilog_2001] ...
+Loading (11) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\request_generator.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\request_generator.v [0 ms, 43 lines, Verilog_2001] ...
+Loading (12) C:\USC\EE577B\Project\Phase1\Phase1DVT\design\swapbits.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\design\swapbits.v [1 ms, 10 lines, Verilog_2001] ...
+Loading (13) C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [7 ms, 1055 lines, Verilog_2001] ...
+Loading (14) C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nic_router_tb.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nic_router_tb.v [2 ms, 76 lines, Verilog_2001] ...
+Loading (15) C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v [0 ms, 75 lines, Verilog_2001] ...
+Loading (16) C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_router_router_check.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_router_router_check.v [1 ms, 32 lines, Verilog_2001] ...
+Loading (17) C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [3 ms, 163 lines, Verilog_2001] ...
+Loading (18) C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v ...
+Done C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [2 ms, 105 lines, Verilog_2001] ...
+*** Done invocation #1 [89 ms] ***
+*** Done parsing [LT 49 ms, PT 89.0 ms] ***
+*** Total number of lines [5 882] ***
+Performing post full build actions ...
+Performing post full build step 1 (SRI) [1 ms] ...
+Performing post full build step 2 (RI) [0 ms] ...
+Performing post full build step 3 (RCP) [0 ms] ...
+*** Files summary [18 total, 18 unique, 0 optimized] ***
+*** Done SystemVerilog build [104 ms] ***
+
+*** Start mixed mode extension build ***
+Performing mixed post full build step (VLOG - RI) [0 ms] ...
+*** Warning: UNSPECIFIED_TOP: Please specify a -top module/entity/configuration in the project build file
+
+*** Top design candidates: work.cardinal_cmp, work.AND2X1, work.AND2X2, work.AOI21X1, work.AOI22X1, work.BUFX2, work.BUFX4, work.CLKBUF1, work.CLKBUF2, work.CLKBUF3, work.DFFNEGX1, ...
+Performing mixed post full build step (MIXED - ELAB) [281 ms] ...
+Performing mixed post full build step (MIXED - UNEL) [61 ms] ...
+*** Warning: UNDECLARED_MODULE: Module 'alu' is not declared
+    at line 330 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cpu.v [compile index 3]
+
+*** Warning: UNDECLARED_MODULE: Module 'router_router' is not declared
+    at line 11 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_router_router_check.v [compile index 16]
+
+*** Warning: ASSIGNMENT_BLOCKING: Blocking assignment of 'inp_sts' in sequential logic (use non-blocking assignment)
+    at line 97 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\NIC.v [compile index 1]
+
+*** Warning: UNELABORATED_MODULE: Module 'work.nictb' is not elaborated
+    at line 2 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v [compile index 15]
+
+*** Warning: UNELABORATED_MODULE: Module 'work.tb' is not elaborated
+    at line 3 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: UNELABORATED_MODULE: Module 'work.tb' is not elaborated
+    at line 3 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+Performing mixed post full build step (VLOG - RD) [1 ms] ...
+Performing mixed post full build step (VLOG - FSC) [55 ms] ...
+Performing mixed post full build step (VLOG - EV) [64 ms] ...
+Performing mixed post full build step (VLOG - ELPC) [1 ms] ...
+Performing mixed post full build step (VLOG - US) [62 ms] ...
+*** Warning: DUPLICATE_MODULE: Duplicate module 'nictb', already declared
+    at line 3 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nic_router_tb.v
+    at line 2 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v [compile index 15]
+
+*** Warning: DUPLICATE_MODULE: Duplicate module 'tb', already declared
+    at line 4 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_router_router_check.v
+    at line 3 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: DUPLICATE_MODULE: Duplicate module 'tb', already declared
+    at line 4 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_router_router_check.v
+    at line 3 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_USED: Signal 'nic_addr' is never used
+    at line 4 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cpu.v [compile index 3]
+
+*** Warning: SIGNAL_NEVER_USED: Signal 'nic_d_in' is never used
+    at line 4 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cpu.v [compile index 3]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'overflow_reg' is never read
+    at line 360 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\cardinal_cpu.v [compile index 3]
+
+*** Warning: SIGNAL_NEVER_USED: Signal 'chosen_one' is never used
+    at line 6 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\input_control.v [compile index 5]
+
+*** Warning: SIGNAL_NEVER_USED: Signal 'reset' is never used
+    at line 6 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\input_control.v [compile index 5]
+
+*** Warning: SIGNAL_NEVER_USED: Signal 'clk' is never used
+    at line 6 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\input_control.v [compile index 5]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r00_dataout_w' is never read (connected to sub-instance output port)
+    at line 63 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r00_so_n' is never read (connected to sub-instance output port)
+    at line 65 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r00_so_w' is never read (connected to sub-instance output port)
+    at line 68 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r00_ri_n' is never read (connected to sub-instance output port)
+    at line 70 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r00_ri_s' is never read (connected to sub-instance output port)
+    at line 72 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r00_ri_w' is never read (connected to sub-instance output port)
+    at line 73 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r00_datain_n' is never written (connected to sub-instance input port)
+    at line 76 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r00_datain_s' is never written (connected to sub-instance input port)
+    at line 78 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r00_datain_w' is never written (connected to sub-instance input port)
+    at line 79 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r00_si_n' is never written (connected to sub-instance input port)
+    at line 81 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r00_si_w' is never written (connected to sub-instance input port)
+    at line 84 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r00_ro_w' is never written (connected to sub-instance input port)
+    at line 89 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r01_so_n' is never read (connected to sub-instance output port)
+    at line 98 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r01_ri_n' is never read (connected to sub-instance output port)
+    at line 103 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r01_ri_s' is never read (connected to sub-instance output port)
+    at line 105 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r01_datain_n' is never written (connected to sub-instance input port)
+    at line 109 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r01_datain_s' is never written (connected to sub-instance input port)
+    at line 111 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r01_si_n' is never written (connected to sub-instance input port)
+    at line 114 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r02_so_n' is never read (connected to sub-instance output port)
+    at line 131 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r02_ri_n' is never read (connected to sub-instance output port)
+    at line 136 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r02_ri_s' is never read (connected to sub-instance output port)
+    at line 138 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r02_datain_n' is never written (connected to sub-instance input port)
+    at line 142 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r02_datain_s' is never written (connected to sub-instance input port)
+    at line 144 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r02_si_n' is never written (connected to sub-instance input port)
+    at line 147 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r03_dataout_e' is never read (connected to sub-instance output port)
+    at line 160 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r03_so_n' is never read (connected to sub-instance output port)
+    at line 164 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r03_so_e' is never read (connected to sub-instance output port)
+    at line 165 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r03_so_s' is never read (connected to sub-instance output port)
+    at line 166 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r03_ri_n' is never read (connected to sub-instance output port)
+    at line 169 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r03_ri_e' is never read (connected to sub-instance output port)
+    at line 170 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r03_ri_s' is never read (connected to sub-instance output port)
+    at line 171 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r03_datain_n' is never written (connected to sub-instance input port)
+    at line 175 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r03_datain_e' is never written (connected to sub-instance input port)
+    at line 176 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r03_datain_s' is never written (connected to sub-instance input port)
+    at line 177 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r03_si_n' is never written (connected to sub-instance input port)
+    at line 180 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r03_si_e' is never written (connected to sub-instance input port)
+    at line 181 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r03_ro_e' is never written (connected to sub-instance input port)
+    at line 186 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r10_dataout_w' is never read (connected to sub-instance output port)
+    at line 195 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r10_so_w' is never read (connected to sub-instance output port)
+    at line 200 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r10_ri_w' is never read (connected to sub-instance output port)
+    at line 205 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r10_datain_w' is never written (connected to sub-instance input port)
+    at line 211 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r10_si_w' is never written (connected to sub-instance input port)
+    at line 216 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r10_ro_w' is never written (connected to sub-instance input port)
+    at line 221 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r11_so_s' is never read (connected to sub-instance output port)
+    at line 232 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r13_dataout_e' is never read (connected to sub-instance output port)
+    at line 292 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r13_so_e' is never read (connected to sub-instance output port)
+    at line 297 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r13_ri_e' is never read (connected to sub-instance output port)
+    at line 302 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r13_datain_e' is never written (connected to sub-instance input port)
+    at line 308 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r13_si_e' is never written (connected to sub-instance input port)
+    at line 313 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r13_ro_e' is never written (connected to sub-instance input port)
+    at line 318 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r20_dataout_w' is never read (connected to sub-instance output port)
+    at line 327 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r20_so_w' is never read (connected to sub-instance output port)
+    at line 332 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r20_ri_w' is never read (connected to sub-instance output port)
+    at line 337 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r20_datain_w' is never written (connected to sub-instance input port)
+    at line 343 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r20_si_w' is never written (connected to sub-instance input port)
+    at line 348 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r20_ro_w' is never written (connected to sub-instance input port)
+    at line 353 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r21_so_n' is never read (connected to sub-instance output port)
+    at line 362 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r23_dataout_e' is never read (connected to sub-instance output port)
+    at line 424 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r23_so_e' is never read (connected to sub-instance output port)
+    at line 429 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r23_ri_e' is never read (connected to sub-instance output port)
+    at line 434 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r23_datain_e' is never written (connected to sub-instance input port)
+    at line 440 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r23_si_e' is never written (connected to sub-instance input port)
+    at line 445 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r23_ro_e' is never written (connected to sub-instance input port)
+    at line 450 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r30_dataout_n' is never read (connected to sub-instance output port)
+    at line 457 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r30_dataout_s' is never read (connected to sub-instance output port)
+    at line 459 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r30_dataout_w' is never read (connected to sub-instance output port)
+    at line 460 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r30_so_s' is never read (connected to sub-instance output port)
+    at line 464 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r30_so_w' is never read (connected to sub-instance output port)
+    at line 465 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r30_ri_w' is never read (connected to sub-instance output port)
+    at line 470 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r30_datain_w' is never written (connected to sub-instance input port)
+    at line 476 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r30_si_s' is never written (connected to sub-instance input port)
+    at line 480 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r30_si_w' is never written (connected to sub-instance input port)
+    at line 481 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r30_ro_n' is never written (connected to sub-instance input port)
+    at line 483 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r30_ro_s' is never written (connected to sub-instance input port)
+    at line 485 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r30_ro_w' is never written (connected to sub-instance input port)
+    at line 486 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r31_dataout_n' is never read (connected to sub-instance output port)
+    at line 490 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r31_dataout_s' is never read (connected to sub-instance output port)
+    at line 492 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r31_so_s' is never read (connected to sub-instance output port)
+    at line 497 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r31_si_s' is never written (connected to sub-instance input port)
+    at line 513 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r31_ro_n' is never written (connected to sub-instance input port)
+    at line 516 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r31_ro_s' is never written (connected to sub-instance input port)
+    at line 518 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r32_dataout_n' is never read (connected to sub-instance output port)
+    at line 523 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r32_dataout_s' is never read (connected to sub-instance output port)
+    at line 525 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r32_so_s' is never read (connected to sub-instance output port)
+    at line 530 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r32_si_s' is never written (connected to sub-instance input port)
+    at line 547 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r32_ro_n' is never written (connected to sub-instance input port)
+    at line 550 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r32_ro_s' is never written (connected to sub-instance input port)
+    at line 552 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r33_dataout_n' is never read (connected to sub-instance output port)
+    at line 557 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r33_dataout_e' is never read (connected to sub-instance output port)
+    at line 558 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r33_dataout_s' is never read (connected to sub-instance output port)
+    at line 559 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r33_so_e' is never read (connected to sub-instance output port)
+    at line 563 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r33_so_s' is never read (connected to sub-instance output port)
+    at line 564 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'r33_ri_e' is never read (connected to sub-instance output port)
+    at line 568 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_USED: Signal 'r33_polarity' is never used
+    at line 572 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r33_datain_e' is never written (connected to sub-instance input port)
+    at line 575 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r33_si_e' is never written (connected to sub-instance input port)
+    at line 580 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r33_si_s' is never written (connected to sub-instance input port)
+    at line 581 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r33_ro_n' is never written (connected to sub-instance input port)
+    at line 584 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r33_ro_e' is never written (connected to sub-instance input port)
+    at line 585 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'r33_ro_s' is never written (connected to sub-instance input port)
+    at line 586 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_archi.v [compile index 6]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'reqnorth_n' is never read (connected to sub-instance output port)
+    at line 29 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_router.v [compile index 7]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'reqeast_e' is never read (connected to sub-instance output port)
+    at line 35 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_router.v [compile index 7]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'reqsouth_s' is never read (connected to sub-instance output port)
+    at line 41 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_router.v [compile index 7]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'reqwest_w' is never read (connected to sub-instance output port)
+    at line 47 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_router.v [compile index 7]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'reqpeout_pein' is never read (connected to sub-instance output port)
+    at line 53 in C:\USC\EE577B\Project\Phase1\Phase1DVT\design\mesh_router.v [compile index 7]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 61 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I1_out' using `default_nettype set to wire
+    at line 62 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 94 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I1_out' using `default_nettype set to wire
+    at line 95 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I2_out' using `default_nettype set to wire
+    at line 96 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'NOTIFIER' is never written (connected to sub-instance input port)
+    at line 238 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_CLOCK' using `default_nettype set to wire
+    at line 240 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'DS0000' using `default_nettype set to wire
+    at line 241 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'P0000' using `default_nettype set to wire
+    at line 242 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'P0000' is never read (connected to sub-instance output port)
+    at line 242 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'NOTIFIER' is never written (connected to sub-instance input port)
+    at line 278 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'DS0000' using `default_nettype set to wire
+    at line 280 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'P0000' using `default_nettype set to wire
+    at line 281 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'P0000' is never read (connected to sub-instance output port)
+    at line 281 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'NOTIFIER' is never written (connected to sub-instance input port)
+    at line 319 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_CLEAR' using `default_nettype set to wire
+    at line 321 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_SET' using `default_nettype set to wire
+    at line 322 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'P0003' using `default_nettype set to wire
+    at line 323 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'D_' using `default_nettype set to wire
+    at line 323 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'P0002' using `default_nettype set to wire
+    at line 325 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'D_EQ_1_AN_S_EQ_1' using `default_nettype set to wire
+    at line 327 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'D_EQ_1_AN_S_EQ_1' is never read (connected to sub-instance output port)
+    at line 327 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I9_out' using `default_nettype set to wire
+    at line 328 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'D_EQ_0_AN_R_EQ_1' using `default_nettype set to wire
+    at line 329 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'D_EQ_0_AN_R_EQ_1' is never read (connected to sub-instance output port)
+    at line 329 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'S_EQ_1_AN_R_EQ_1' using `default_nettype set to wire
+    at line 330 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'S_EQ_1_AN_R_EQ_1' is never read (connected to sub-instance output port)
+    at line 330 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 389 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I1_out' using `default_nettype set to wire
+    at line 390 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I3_out' using `default_nettype set to wire
+    at line 391 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I5_out' using `default_nettype set to wire
+    at line 393 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'NOTIFIER' is never written (connected to sub-instance input port)
+    at line 553 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'DS0000' using `default_nettype set to wire
+    at line 555 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'P0000' using `default_nettype set to wire
+    at line 556 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'P0000' is never read (connected to sub-instance output port)
+    at line 556 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 595 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 625 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I1_out' using `default_nettype set to wire
+    at line 653 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 683 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I1_out' using `default_nettype set to wire
+    at line 711 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 742 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I1_out' using `default_nettype set to wire
+    at line 743 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 775 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I1_out' using `default_nettype set to wire
+    at line 776 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I2_out' using `default_nettype set to wire
+    at line 777 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 862 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 891 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: IMPLICIT_DECLARATION: Implicit declaration of 'I0_out' using `default_nettype set to wire
+    at line 920 in C:\USC\EE577B\Project\Phase1\Phase1DVT\include\gscl45nm.v [compile index 13]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'net_so_tb' is never read (connected to sub-instance output port)
+    at line 14 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nic_router_tb.v [compile index 14]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'net_ri_tb' is never read (connected to sub-instance output port)
+    at line 15 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nic_router_tb.v [compile index 14]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'd_out_tb' is never read (connected to sub-instance output port)
+    at line 16 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nic_router_tb.v [compile index 14]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'net_do_tb' is never read (connected to sub-instance output port)
+    at line 17 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nic_router_tb.v [compile index 14]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'net_so_tb' is never read (connected to sub-instance output port)
+    at line 13 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v [compile index 15]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'net_ri_tb' is never read (connected to sub-instance output port)
+    at line 14 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v [compile index 15]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'd_out_tb' is never read (connected to sub-instance output port)
+    at line 15 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v [compile index 15]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'net_do_tb' is never written
+    at line 16 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\nictb.v [compile index 15]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic01_addr_tb' is never written (connected to sub-instance input port)
+    at line 9 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic02_addr_tb' is never written (connected to sub-instance input port)
+    at line 9 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic03_addr_tb' is never written (connected to sub-instance input port)
+    at line 9 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic10_addr_tb' is never written (connected to sub-instance input port)
+    at line 10 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic12_addr_tb' is never written (connected to sub-instance input port)
+    at line 10 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic13_addr_tb' is never written (connected to sub-instance input port)
+    at line 10 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic20_addr_tb' is never written (connected to sub-instance input port)
+    at line 11 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic21_addr_tb' is never written (connected to sub-instance input port)
+    at line 11 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic23_addr_tb' is never written (connected to sub-instance input port)
+    at line 11 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic30_addr_tb' is never written (connected to sub-instance input port)
+    at line 12 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic31_addr_tb' is never written (connected to sub-instance input port)
+    at line 12 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic32_addr_tb' is never written (connected to sub-instance input port)
+    at line 12 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic33_addr_tb' is never written (connected to sub-instance input port)
+    at line 12 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic01_d_in_tb' is never written (connected to sub-instance input port)
+    at line 14 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic02_d_in_tb' is never written (connected to sub-instance input port)
+    at line 14 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic03_d_in_tb' is never written (connected to sub-instance input port)
+    at line 14 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic10_d_in_tb' is never written (connected to sub-instance input port)
+    at line 15 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic11_d_in_tb' is never written (connected to sub-instance input port)
+    at line 15 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic12_d_in_tb' is never written (connected to sub-instance input port)
+    at line 15 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic13_d_in_tb' is never written (connected to sub-instance input port)
+    at line 15 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic20_d_in_tb' is never written (connected to sub-instance input port)
+    at line 16 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic21_d_in_tb' is never written (connected to sub-instance input port)
+    at line 16 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic23_d_in_tb' is never written (connected to sub-instance input port)
+    at line 16 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic31_d_in_tb' is never written (connected to sub-instance input port)
+    at line 17 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic32_d_in_tb' is never written (connected to sub-instance input port)
+    at line 17 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_WRITTEN: Signal 'nic33_d_in_tb' is never written (connected to sub-instance input port)
+    at line 17 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic00_d_out_tb' is never read (connected to sub-instance output port)
+    at line 19 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic01_d_out_tb' is never read (connected to sub-instance output port)
+    at line 19 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic02_d_out_tb' is never read (connected to sub-instance output port)
+    at line 19 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic03_d_out_tb' is never read (connected to sub-instance output port)
+    at line 19 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic10_d_out_tb' is never read (connected to sub-instance output port)
+    at line 20 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic11_d_out_tb' is never read (connected to sub-instance output port)
+    at line 20 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic12_d_out_tb' is never read (connected to sub-instance output port)
+    at line 20 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic13_d_out_tb' is never read (connected to sub-instance output port)
+    at line 20 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic20_d_out_tb' is never read (connected to sub-instance output port)
+    at line 21 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic21_d_out_tb' is never read (connected to sub-instance output port)
+    at line 21 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic22_d_out_tb' is never read (connected to sub-instance output port)
+    at line 21 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic23_d_out_tb' is never read (connected to sub-instance output port)
+    at line 21 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic30_d_out_tb' is never read (connected to sub-instance output port)
+    at line 22 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic31_d_out_tb' is never read (connected to sub-instance output port)
+    at line 22 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic32_d_out_tb' is never read (connected to sub-instance output port)
+    at line 22 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'nic33_d_out_tb' is never read (connected to sub-instance output port)
+    at line 22 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tb_top.v [compile index 17]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'tb_polarity' is never read (connected to sub-instance output port)
+    at line 7 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Edout' is never read (connected to sub-instance output port)
+    at line 15 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Ndout' is never read (connected to sub-instance output port)
+    at line 16 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Sdout' is never read (connected to sub-instance output port)
+    at line 17 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Wdout' is never read (connected to sub-instance output port)
+    at line 18 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Pdout' is never read (connected to sub-instance output port)
+    at line 19 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Nri' is never read (connected to sub-instance output port)
+    at line 27 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Wri' is never read (connected to sub-instance output port)
+    at line 28 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Eri' is never read (connected to sub-instance output port)
+    at line 29 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Sri' is never read (connected to sub-instance output port)
+    at line 30 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Pri' is never read (connected to sub-instance output port)
+    at line 31 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Nso' is never read (connected to sub-instance output port)
+    at line 33 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Eso' is never read (connected to sub-instance output port)
+    at line 34 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Wso' is never read (connected to sub-instance output port)
+    at line 35 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Sso' is never read (connected to sub-instance output port)
+    at line 36 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Warning: SIGNAL_NEVER_READ: Signal 'Pso' is never read (connected to sub-instance output port)
+    at line 37 in C:\USC\EE577B\Project\Phase1\Phase1DVT\tb\tbcheck.v [compile index 18]
+
+*** Done mixed mode extension build [678 ms] ***
+*** Start adding/validating the DVT Auto-Linked resources ***
+*** Done adding/validating the DVT Auto-Linked resources [4 ms] ***
+*** Total build time [1s.818ms] ***
