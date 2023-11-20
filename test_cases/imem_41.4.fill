@@ -1,0 +1,163 @@
+F0000000  // NOP  // Program for single packet read and write from processor       
+81400000  // load datamem[0] into R10    			//load packet to be sent out in register file
+81600001  // load datamem[1] into R11    			//load packet to be sent out in register file
+81800002  // load datamem[2] into R12   			//load packet to be sent out in register file
+81B00003  // load datamem[3] into R13   			//load packet to be sent out in register file
+81C00004  // load datamem[4] into R14   			//load packet to be sent out in register file
+81E00005  // load datamem[5] into R15   			//load packet to be sent out in register file
+82000006  // load datamem[6] into R15   			//load packet to be sent out in register file	
+82200007  // load datamem[7] into R15   			//load packet to be sent out in register file
+82400008  // load datamem[8] into R15   			//load packet to be sent out in register file
+82600009  // load datamem[9] into R15   			//load packet to be sent out in register file
+8280000A  // load datamem[10] into R15   			//load packet to be sent out in register file
+82A0000B  // load datamem[11] into R15   			//load packet to be sent out in register file
+82C0000C  // load datamem[12] into R15   			//load packet to be sent out in register file
+82E0000D  // load datamem[13] into R15   			//load packet to be sent out in register file
+8300000E  // load datamem[14] into R15   			//load packet to be sent out in register file
+8320000F  // load datamem[15] into R15   			//load packet to be sent out in register file
+8020C003  // load NIC[3] into R1  					//read the output channel status register -- output channel: CPU->NIC
+8C200010  // VBNEZ r1, 4                    //if full, read again until empty
+8540C002  // store r10 into NIC[2]					//send packet out to NIC
+8020C003  // load NIC[3] into r1  					//read the output channel status register
+8C20001c  // VBNEZ r1, 7                    //if full, read again until empty
+8560C002  // store r11 into NIC[2]					//send packet out to NIC
+8020C003  // load NIC[3] into r1  					//read the output channel status register
+8C200028  // VBNEZ R1, 10                   //if full, read again until empty
+8580C002  // store R12 into NIC[2]				//send packet out to NIC
+8040C001  // load NIC[1] into R2					//read the input channel status register
+88400034  // VBEZ R2, 13                  //if empty, read again
+80A0C000  // store NIC[0] into R5	// LW
+8040C001  // load NIC[1] into R2					//read the input channel status register
+88400040  // VBEZ R2, 16
+81E0C000  // store NIC[0] into R15	// LW
+8040C001  // load NIC[1] into R2					//read the input channel status register
+8840004C  // VBEZ R2, 19
+8320C000  // store NIC[0] into R25
+84A0000A  // VSD R5, 10                    //write R5 to datamem[5], data=mem[0]
+85E0000B  // VSD R15, 11                    //write R15 to datamem[6], data=mem[0]
+8720000C  // VSD R25, 12                    //write R25 to datamem[7], data=mem[0]
+00000000  // NOP End Program 
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000

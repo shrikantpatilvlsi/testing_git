@@ -1,0 +1,245 @@
+# SimVision Command Script (Sun Nov 19 08:04:05 PM PST 2023)
+#
+# Version 15.20.s079
+#
+# You can restore this configuration with:
+#
+#      ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY work.tb_cmp_basic_check -input /home/viterbi/09/patilss/EE577B/Project/Phase3/basiccheck.tcl
+#
+
+
+#
+# Preferences
+#
+preferences set plugin-enable-svdatabrowser-new 1
+preferences set toolbar-sendToIndago-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set toolbar-Standard-Console {
+  usual
+  position -pos 1
+}
+preferences set toolbar-Search-Console {
+  usual
+  position -pos 2
+}
+preferences set plugin-enable-groupscope 0
+preferences set plugin-enable-interleaveandcompare 0
+preferences set plugin-enable-waveformfrequencyplot 0
+preferences set whats-new-dont-show-at-startup 1
+
+#
+# Simulator
+#
+database require simulator -hints {
+	simulator "ncsim -64BIT -STATUS -NOCOPYRIGHT -MESSAGES -NCFATAL INVSUP -NOWARN DLBRLK -TCL -NOLOG -NOKEY -GUI work.tb_cmp_basic_check -input basiccheck.tcl"
+}
+
+#
+# Mnemonic Maps
+#
+mmap new -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 730x500+95+7}] != ""} {
+    window geometry "Design Browser 1" 730x500+95+7
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set -scope [subst  {simulator::[format {tb_cmp_basic_check.CMP.cpu1.Register_File}]} ]
+browser set \
+    -signalsort name
+browser yview see [subst  {simulator::[format {tb_cmp_basic_check.CMP.cpu1.Register_File}]} ]
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 2" -geometry 1876x1031+27+53}] != ""} {
+    window geometry "Waveform 2" 1876x1031+27+53
+}
+window target "Waveform 2" on
+waveform using {Waveform 2}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 158
+waveform baseline set -time 0
+
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.prog_counter[0:31]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.clk}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.inst_from_imem[0:31]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.data_from_dmem[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.nicEn}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.nicWrEn}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.nic_d_out[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.RF_wr_datain_EXM[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.inp_buffer[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.nic_d_in[0:63]}]}
+	} ]]
+set id [waveform add -cdivider divider]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.addr[0:1]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.clk}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.d_in[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.d_out[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.net_do[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.net_do_rev[63:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.net_polarity}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.net_ri}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.net_ro}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.net_si}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.net_so}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.nicEn}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.nicEnWr}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.out_buffer[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.out_sts}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic00.reset}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.RF_read_dataout0[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu0.RF_read_dataout0_mux[0:63]}]}
+	} ]]
+set id [waveform add -cdivider divider]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.ipbuf_even_pe.buf_in[63:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.ipbuf_even_pe.buf_out[63:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r01.reqgen_west.req_east}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.ipbuf_even_pe.clk}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.ipbuf_even_pe.flag}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.ipbuf_even_pe.isfull}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.ipbuf_even_pe.reset}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.ipbuf_even_pe.write_en}]}
+	} ]]
+set id [waveform add -cdivider divider]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r00.dataout_east[63:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r01.dataout_peout[63:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.r01.reqgen_west.req_peout}]}
+	} ]]
+set id [waveform add -cdivider divider]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic01.net_di[63:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic01.inp_sts}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic01.inp_buffer[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.m1.nic01.d_out[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu1.RF_wr_datain_EXM[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu1.nic_d_out[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu1.nicEn}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu1.RF_write_datain_WB[0:63]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{simulator::[format {tb_cmp_basic_check.CMP.cpu1.Register_File.mem[31:1]}]}
+	} ]]
+waveform hierarchy collapse $id
+
+waveform xview limits 440380ps 3895660ps
+
+#
+# Waveform Window Links
+#
+
+#
+# Console windows
+#
+console set -windowname Console
+window geometry Console 730x250+261+564
+
+#
+# Layout selection
+#
+

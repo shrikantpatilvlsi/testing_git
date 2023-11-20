@@ -1,0 +1,10 @@
+8020000C
+CC6008C2
+8460000A
+8080000C
+80A0000D
+A8C520C6
+84C0000E					
+00000000 	// NOP end the simulation
+
+// please include the dump file generated in your submission folder

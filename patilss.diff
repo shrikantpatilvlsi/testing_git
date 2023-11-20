@@ -1,0 +1,19 @@
+Running Test # 42 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem15.dump
+ 
+ 
