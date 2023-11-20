@@ -1,3 +1,1818 @@
+Running Test # 1 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_1.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 2 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_2.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 3 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_3.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 4 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_4.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 5 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_5.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 6 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_6.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 7 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_7.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 8 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_8.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 9 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_9.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 10 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_10.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 11 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_11.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 12 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_12.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 13 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_13.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 14 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_14.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 15 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_15.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 16 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_16.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 17 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_17.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 18 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_18.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 19 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_19.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 20 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_20.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 21 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_21.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 22 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_22.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 23 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_23.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 24 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_24.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 25 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_25.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 26 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_26.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 27 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_27.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 28 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_28.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 29 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_29.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 30 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_30.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 31 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_31.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 32 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_32.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 33 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_33.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 34 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_34.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 35 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_35.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 36 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_36.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 37 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_37.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 38 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_38.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 39 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_39.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 40 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem0.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem1.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem2.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem3.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_40.dump cmp_test.dmem15.dump
+ 
+ 
+Running Test # 41 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.0.dump cmp_test.dmem0.dump
+Files /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.0.dump and cmp_test.dmem0.dump differ
+1,128c1,128
+< Memory location #          0 : 8001000000000ab1 
+< Memory location #          1 : c003000000000ce2 
+< Memory location #          2 : c001000000000df3 
+< Memory location #          3 : xxxxxxxxxxxxxxxx 
+< Memory location #          4 : xxxxxxxxxxxxxxxx 
+< Memory location #          5 : xxxxxxxxxxxxxxxx 
+< Memory location #          6 : xxxxxxxxxxxxxxxx 
+< Memory location #          7 : xxxxxxxxxxxxxxxx 
+< Memory location #          8 : xxxxxxxxxxxxxxxx 
+< Memory location #          9 : xxxxxxxxxxxxxxxx 
+< Memory location #         10 : 0000000300000470 
+< Memory location #         11 : c000000100600aa0 
+< Memory location #         12 : 400000020000ed20 
+< Memory location #         13 : xxxxxxxxxxxxxxxx 
+< Memory location #         14 : xxxxxxxxxxxxxxxx 
+< Memory location #         15 : xxxxxxxxxxxxxxxx 
+< Memory location #         16 : xxxxxxxxxxxxxxxx 
+< Memory location #         17 : xxxxxxxxxxxxxxxx 
+< Memory location #         18 : xxxxxxxxxxxxxxxx 
+< Memory location #         19 : xxxxxxxxxxxxxxxx 
+< Memory location #         20 : xxxxxxxxxxxxxxxx 
+< Memory location #         21 : xxxxxxxxxxxxxxxx 
+< Memory location #         22 : xxxxxxxxxxxxxxxx 
+< Memory location #         23 : xxxxxxxxxxxxxxxx 
+< Memory location #         24 : xxxxxxxxxxxxxxxx 
+< Memory location #         25 : xxxxxxxxxxxxxxxx 
+< Memory location #         26 : xxxxxxxxxxxxxxxx 
+< Memory location #         27 : xxxxxxxxxxxxxxxx 
+< Memory location #         28 : xxxxxxxxxxxxxxxx 
+< Memory location #         29 : xxxxxxxxxxxxxxxx 
+< Memory location #         30 : xxxxxxxxxxxxxxxx 
+< Memory location #         31 : xxxxxxxxxxxxxxxx 
+< Memory location #         32 : xxxxxxxxxxxxxxxx 
+< Memory location #         33 : xxxxxxxxxxxxxxxx 
+< Memory location #         34 : xxxxxxxxxxxxxxxx 
+< Memory location #         35 : xxxxxxxxxxxxxxxx 
+< Memory location #         36 : xxxxxxxxxxxxxxxx 
+< Memory location #         37 : xxxxxxxxxxxxxxxx 
+< Memory location #         38 : xxxxxxxxxxxxxxxx 
+< Memory location #         39 : xxxxxxxxxxxxxxxx 
+< Memory location #         40 : xxxxxxxxxxxxxxxx 
+< Memory location #         41 : xxxxxxxxxxxxxxxx 
+< Memory location #         42 : xxxxxxxxxxxxxxxx 
+< Memory location #         43 : xxxxxxxxxxxxxxxx 
+< Memory location #         44 : xxxxxxxxxxxxxxxx 
+< Memory location #         45 : xxxxxxxxxxxxxxxx 
+< Memory location #         46 : xxxxxxxxxxxxxxxx 
+< Memory location #         47 : xxxxxxxxxxxxxxxx 
+< Memory location #         48 : xxxxxxxxxxxxxxxx 
+< Memory location #         49 : xxxxxxxxxxxxxxxx 
+< Memory location #         50 : xxxxxxxxxxxxxxxx 
+< Memory location #         51 : xxxxxxxxxxxxxxxx 
+< Memory location #         52 : xxxxxxxxxxxxxxxx 
+< Memory location #         53 : xxxxxxxxxxxxxxxx 
+< Memory location #         54 : xxxxxxxxxxxxxxxx 
+< Memory location #         55 : xxxxxxxxxxxxxxxx 
+< Memory location #         56 : xxxxxxxxxxxxxxxx 
+< Memory location #         57 : xxxxxxxxxxxxxxxx 
+< Memory location #         58 : xxxxxxxxxxxxxxxx 
+< Memory location #         59 : xxxxxxxxxxxxxxxx 
+< Memory location #         60 : xxxxxxxxxxxxxxxx 
+< Memory location #         61 : xxxxxxxxxxxxxxxx 
+< Memory location #         62 : xxxxxxxxxxxxxxxx 
+< Memory location #         63 : xxxxxxxxxxxxxxxx 
+< Memory location #         64 : xxxxxxxxxxxxxxxx 
+< Memory location #         65 : xxxxxxxxxxxxxxxx 
+< Memory location #         66 : xxxxxxxxxxxxxxxx 
+< Memory location #         67 : xxxxxxxxxxxxxxxx 
+< Memory location #         68 : xxxxxxxxxxxxxxxx 
+< Memory location #         69 : xxxxxxxxxxxxxxxx 
+< Memory location #         70 : xxxxxxxxxxxxxxxx 
+< Memory location #         71 : xxxxxxxxxxxxxxxx 
+< Memory location #         72 : xxxxxxxxxxxxxxxx 
+< Memory location #         73 : xxxxxxxxxxxxxxxx 
+< Memory location #         74 : xxxxxxxxxxxxxxxx 
+< Memory location #         75 : xxxxxxxxxxxxxxxx 
+< Memory location #         76 : xxxxxxxxxxxxxxxx 
+< Memory location #         77 : xxxxxxxxxxxxxxxx 
+< Memory location #         78 : xxxxxxxxxxxxxxxx 
+< Memory location #         79 : xxxxxxxxxxxxxxxx 
+< Memory location #         80 : xxxxxxxxxxxxxxxx 
+< Memory location #         81 : xxxxxxxxxxxxxxxx 
+< Memory location #         82 : xxxxxxxxxxxxxxxx 
+< Memory location #         83 : xxxxxxxxxxxxxxxx 
+< Memory location #         84 : xxxxxxxxxxxxxxxx 
+< Memory location #         85 : xxxxxxxxxxxxxxxx 
+< Memory location #         86 : xxxxxxxxxxxxxxxx 
+< Memory location #         87 : xxxxxxxxxxxxxxxx 
+< Memory location #         88 : xxxxxxxxxxxxxxxx 
+< Memory location #         89 : xxxxxxxxxxxxxxxx 
+< Memory location #         90 : xxxxxxxxxxxxxxxx 
+< Memory location #         91 : xxxxxxxxxxxxxxxx 
+< Memory location #         92 : xxxxxxxxxxxxxxxx 
+< Memory location #         93 : xxxxxxxxxxxxxxxx 
+< Memory location #         94 : xxxxxxxxxxxxxxxx 
+< Memory location #         95 : xxxxxxxxxxxxxxxx 
+< Memory location #         96 : xxxxxxxxxxxxxxxx 
+< Memory location #         97 : xxxxxxxxxxxxxxxx 
+< Memory location #         98 : xxxxxxxxxxxxxxxx 
+< Memory location #         99 : xxxxxxxxxxxxxxxx 
+< Memory location #        100 : xxxxxxxxxxxxxxxx 
+< Memory location #        101 : xxxxxxxxxxxxxxxx 
+< Memory location #        102 : xxxxxxxxxxxxxxxx 
+< Memory location #        103 : xxxxxxxxxxxxxxxx 
+< Memory location #        104 : xxxxxxxxxxxxxxxx 
+< Memory location #        105 : xxxxxxxxxxxxxxxx 
+< Memory location #        106 : xxxxxxxxxxxxxxxx 
+< Memory location #        107 : xxxxxxxxxxxxxxxx 
+< Memory location #        108 : xxxxxxxxxxxxxxxx 
+< Memory location #        109 : xxxxxxxxxxxxxxxx 
+< Memory location #        110 : xxxxxxxxxxxxxxxx 
+< Memory location #        111 : xxxxxxxxxxxxxxxx 
+< Memory location #        112 : xxxxxxxxxxxxxxxx 
+< Memory location #        113 : xxxxxxxxxxxxxxxx 
+< Memory location #        114 : xxxxxxxxxxxxxxxx 
+< Memory location #        115 : xxxxxxxxxxxxxxxx 
+< Memory location #        116 : xxxxxxxxxxxxxxxx 
+< Memory location #        117 : xxxxxxxxxxxxxxxx 
+< Memory location #        118 : xxxxxxxxxxxxxxxx 
+< Memory location #        119 : xxxxxxxxxxxxxxxx 
+< Memory location #        120 : xxxxxxxxxxxxxxxx 
+< Memory location #        121 : xxxxxxxxxxxxxxxx 
+< Memory location #        122 : xxxxxxxxxxxxxxxx 
+< Memory location #        123 : xxxxxxxxxxxxxxxx 
+< Memory location #        124 : xxxxxxxxxxxxxxxx 
+< Memory location #        125 : xxxxxxxxxxxxxxxx 
+< Memory location #        126 : xxxxxxxxxxxxxxxx 
+< Memory location #        127 : xxxxxxxxxxxxxxxx 
+---
+> Memory location #          0 : 0000000000000000 
+> Memory location #          1 : 1111111111111111 
+> Memory location #          2 : 2222222222222222 
+> Memory location #          3 : 3333333333333333 
+> Memory location #          4 : 4444444444444444 
+> Memory location #          5 : 5555555555555555 
+> Memory location #          6 : 6666666666666666 
+> Memory location #          7 : 7777777777777777 
+> Memory location #          8 : 8888888888888888 
+> Memory location #          9 : 9999999999999999 
+> Memory location #         10 : aaaaaaaaaaaaaaaa 
+> Memory location #         11 : bbbbbbbbbbbbbbbb 
+> Memory location #         12 : cccccccccccccccc 
+> Memory location #         13 : dddddddddddddddd 
+> Memory location #         14 : eeeeeeeeeeeeeeee 
+> Memory location #         15 : ffffffffffffffff 
+> Memory location #         16 : 0f0f0f0f0f0f0f0f 
+> Memory location #         17 : 1e1e1e1e1e1e1e1e 
+> Memory location #         18 : 2d2d2d2d2d2d2d2d 
+> Memory location #         19 : 3c3c3c3c3c3c3c3c 
+> Memory location #         20 : 4b4b4b4b4b4b4b4b 
+> Memory location #         21 : 5a5a5a5a5a5a5a5a 
+> Memory location #         22 : 6969696969696969 
+> Memory location #         23 : 7878787878787878 
+> Memory location #         24 : 8787878787878787 
+> Memory location #         25 : 9696969696969696 
+> Memory location #         26 : a5a5a5a5a5a5a5a5 
+> Memory location #         27 : b4b4b4b4b4b4b4b4 
+> Memory location #         28 : c3c3c3c3c3c3c3c3 
+> Memory location #         29 : d2d2d2d2d2d2d2d2 
+> Memory location #         30 : e1e1e1e1e1e1e1e1 
+> Memory location #         31 : f0f0f0f0f0f0f0f0 
+> Memory location #         32 : 0000000000000000 
+> Memory location #         33 : 02060a0f0e0a0602 
+> Memory location #         34 : dddddddddddddddd 
+> Memory location #         35 : 4444444444444444 
+> Memory location #         36 : 2d2d2d2d2d2d2d2d 
+> Memory location #         37 : 3333333333333333 
+> Memory location #         38 : 4f4f4f4f4f4f4f4f 
+> Memory location #         39 : 00e100e100e100e1 
+> Memory location #         40 : 4b4b4b4b4b4b4b4b 
+> Memory location #         41 : 2222222222222222 
+> Memory location #         42 : 0000000000000000 
+> Memory location #         43 : 33333333c462f9b6 
+> Memory location #         44 : 2c4a0ff22c4a0ff2 
+> Memory location #         45 : 0000000000000000 
+> Memory location #         46 : f6f6f6f68825bd79 
+> Memory location #         47 : 07ad9ffe7df74cc4 
+> Memory location #         48 : 00a300a300c400c4 
+> Memory location #         49 : 49f49f4960b60b61 
+> Memory location #         50 : 4f4f4f4f4f4f4f4f 
+> Memory location #         51 : 00000000f751ca85 
+> Memory location #         52 : 1234567876543210 
+> Memory location #         53 : 0b2cedf902db6a04 
+> Memory location #         54 : 0051005100620062 
+> Memory location #         55 : 9797979797979797 
+> Memory location #         56 : 6868686797979798 
+> Memory location #         57 : 07a98ae868e640c4 
+> Memory location #         58 : 000000f5000001f7 
+> Memory location #         59 : 0000000000000000 
+> Memory location #         60 : f2f2f2f2f2f2f2f2 
+> Memory location #         61 : 048d159e1d950c84 
+> Memory location #         62 : 8888888888888888 
+> Memory location #         63 : 048d0c84048d0c84 
+> Memory location #         64 : 0000000000000000 
+> Memory location #         65 : 1616161516161615 
+> Memory location #         66 : bbbbbbbbbbbbbbbb 
+> Memory location #         67 : e7e7e7e7e7e7e7e7 
+> Memory location #         68 : 6666666666666666 
+> Memory location #         69 : 7878787878787878 
+> Memory location #         70 : 0000000000000000 
+> Memory location #         71 : 3333333333333333 
+> Memory location #         72 : c3c3c3c3c3c3c3c3 
+> Memory location #         73 : 27272726d8d8d8d9 
+> Memory location #         74 : 0000000000000000 
+> Memory location #         75 : 1982ec55aa40d76e 
+> Memory location #         76 : bbbbbbbbbbbbbbbb 
+> Memory location #         77 : 4141414141414141 
+> Memory location #         78 : 060606060e0e0e0e 
+> Memory location #         79 : 7f7f7f7e7f7f7f7e 
+> Memory location #         80 : 00000000004e4e4e 
+> Memory location #         81 : 1e1e1e1e1e1e1e1e 
+> Memory location #         82 : 1818181810101010 
+> Memory location #         83 : 003e003e003e003e 
+> Memory location #         84 : 0f0f0f0f0f0f0f0f 
+> Memory location #         85 : 0f0f0f0f0f0f0f0f 
+> Memory location #         86 : 9696969696969697 
+> Memory location #         87 : f8f8f8f9f8f8f8f9 
+> Memory location #         88 : b5fc4287631cd691 
+> Memory location #         89 : ffff2d2dffff2d2d 
+> Memory location #         90 : e7e4e7e4e7e4e7e4 
+> Memory location #         91 : 0003000300030003 
+> Memory location #         92 : a5a5a5a5a5a5a5a5 
+> Memory location #         93 : d7d7d7d7d7d7d7d7 
+> Memory location #         94 : 641fdb968acf1358 
+> Memory location #         95 : 0001000200000006 
+> Memory location #         96 : 0000000000000000 
+> Memory location #         97 : 0000000000000000 
+> Memory location #         98 : 0000000000000000 
+> Memory location #         99 : 0000000000000000 
+> Memory location #        100 : 0000000000000000 
+> Memory location #        101 : 0000000000000000 
+> Memory location #        102 : 0000000000000000 
+> Memory location #        103 : 0000000000000000 
+> Memory location #        104 : 0000000000000000 
+> Memory location #        105 : 0000000000000000 
+> Memory location #        106 : 0000000000000000 
+> Memory location #        107 : 0000000000000000 
+> Memory location #        108 : 0000000000000000 
+> Memory location #        109 : 0000000000000000 
+> Memory location #        110 : 0000000000000000 
+> Memory location #        111 : 0000000000000000 
+> Memory location #        112 : 0000000000000000 
+> Memory location #        113 : 0000000000000000 
+> Memory location #        114 : 0000000000000000 
+> Memory location #        115 : 0000000000000000 
+> Memory location #        116 : 0000000000000000 
+> Memory location #        117 : 0000000000000000 
+> Memory location #        118 : 0000000000000000 
+> Memory location #        119 : 0000000000000000 
+> Memory location #        120 : 0000000000000000 
+> Memory location #        121 : 0000000000000000 
+> Memory location #        122 : 0000000000000000 
+> Memory location #        123 : 0000000000000000 
+> Memory location #        124 : 0000000000000000 
+> Memory location #        125 : 0000000000000000 
+> Memory location #        126 : 0000000000000000 
+> Memory location #        127 : 0000000000000000 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.1.dump cmp_test.dmem1.dump
+Files /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.1.dump and cmp_test.dmem1.dump differ
+1,128c1,128
+< Memory location #          0 : 80010001000005d2 
+< Memory location #          1 : c0030001000aefd3 
+< Memory location #          2 : c001000100600aa0 
+< Memory location #          3 : xxxxxxxxxxxxxxxx 
+< Memory location #          4 : xxxxxxxxxxxxxxxx 
+< Memory location #          5 : xxxxxxxxxxxxxxxx 
+< Memory location #          6 : xxxxxxxxxxxxxxxx 
+< Memory location #          7 : xxxxxxxxxxxxxxxx 
+< Memory location #          8 : xxxxxxxxxxxxxxxx 
+< Memory location #          9 : xxxxxxxxxxxxxxxx 
+< Memory location #         10 : 8000000000000ab1 
+< Memory location #         11 : 4000000300000bd1 
+< Memory location #         12 : 40000002000002b1 
+< Memory location #         13 : xxxxxxxxxxxxxxxx 
+< Memory location #         14 : xxxxxxxxxxxxxxxx 
+< Memory location #         15 : xxxxxxxxxxxxxxxx 
+< Memory location #         16 : xxxxxxxxxxxxxxxx 
+< Memory location #         17 : xxxxxxxxxxxxxxxx 
+< Memory location #         18 : xxxxxxxxxxxxxxxx 
+< Memory location #         19 : xxxxxxxxxxxxxxxx 
+< Memory location #         20 : xxxxxxxxxxxxxxxx 
+< Memory location #         21 : xxxxxxxxxxxxxxxx 
+< Memory location #         22 : xxxxxxxxxxxxxxxx 
+< Memory location #         23 : xxxxxxxxxxxxxxxx 
+< Memory location #         24 : xxxxxxxxxxxxxxxx 
+< Memory location #         25 : xxxxxxxxxxxxxxxx 
+< Memory location #         26 : xxxxxxxxxxxxxxxx 
+< Memory location #         27 : xxxxxxxxxxxxxxxx 
+< Memory location #         28 : xxxxxxxxxxxxxxxx 
+< Memory location #         29 : xxxxxxxxxxxxxxxx 
+< Memory location #         30 : xxxxxxxxxxxxxxxx 
+< Memory location #         31 : xxxxxxxxxxxxxxxx 
+< Memory location #         32 : xxxxxxxxxxxxxxxx 
+< Memory location #         33 : xxxxxxxxxxxxxxxx 
+< Memory location #         34 : xxxxxxxxxxxxxxxx 
+< Memory location #         35 : xxxxxxxxxxxxxxxx 
+< Memory location #         36 : xxxxxxxxxxxxxxxx 
+< Memory location #         37 : xxxxxxxxxxxxxxxx 
+< Memory location #         38 : xxxxxxxxxxxxxxxx 
+< Memory location #         39 : xxxxxxxxxxxxxxxx 
+< Memory location #         40 : xxxxxxxxxxxxxxxx 
+< Memory location #         41 : xxxxxxxxxxxxxxxx 
+< Memory location #         42 : xxxxxxxxxxxxxxxx 
+< Memory location #         43 : xxxxxxxxxxxxxxxx 
+< Memory location #         44 : xxxxxxxxxxxxxxxx 
+< Memory location #         45 : xxxxxxxxxxxxxxxx 
+< Memory location #         46 : xxxxxxxxxxxxxxxx 
+< Memory location #         47 : xxxxxxxxxxxxxxxx 
+< Memory location #         48 : xxxxxxxxxxxxxxxx 
+< Memory location #         49 : xxxxxxxxxxxxxxxx 
+< Memory location #         50 : xxxxxxxxxxxxxxxx 
+< Memory location #         51 : xxxxxxxxxxxxxxxx 
+< Memory location #         52 : xxxxxxxxxxxxxxxx 
+< Memory location #         53 : xxxxxxxxxxxxxxxx 
+< Memory location #         54 : xxxxxxxxxxxxxxxx 
+< Memory location #         55 : xxxxxxxxxxxxxxxx 
+< Memory location #         56 : xxxxxxxxxxxxxxxx 
+< Memory location #         57 : xxxxxxxxxxxxxxxx 
+< Memory location #         58 : xxxxxxxxxxxxxxxx 
+< Memory location #         59 : xxxxxxxxxxxxxxxx 
+< Memory location #         60 : xxxxxxxxxxxxxxxx 
+< Memory location #         61 : xxxxxxxxxxxxxxxx 
+< Memory location #         62 : xxxxxxxxxxxxxxxx 
+< Memory location #         63 : xxxxxxxxxxxxxxxx 
+< Memory location #         64 : xxxxxxxxxxxxxxxx 
+< Memory location #         65 : xxxxxxxxxxxxxxxx 
+< Memory location #         66 : xxxxxxxxxxxxxxxx 
+< Memory location #         67 : xxxxxxxxxxxxxxxx 
+< Memory location #         68 : xxxxxxxxxxxxxxxx 
+< Memory location #         69 : xxxxxxxxxxxxxxxx 
+< Memory location #         70 : xxxxxxxxxxxxxxxx 
+< Memory location #         71 : xxxxxxxxxxxxxxxx 
+< Memory location #         72 : xxxxxxxxxxxxxxxx 
+< Memory location #         73 : xxxxxxxxxxxxxxxx 
+< Memory location #         74 : xxxxxxxxxxxxxxxx 
+< Memory location #         75 : xxxxxxxxxxxxxxxx 
+< Memory location #         76 : xxxxxxxxxxxxxxxx 
+< Memory location #         77 : xxxxxxxxxxxxxxxx 
+< Memory location #         78 : xxxxxxxxxxxxxxxx 
+< Memory location #         79 : xxxxxxxxxxxxxxxx 
+< Memory location #         80 : xxxxxxxxxxxxxxxx 
+< Memory location #         81 : xxxxxxxxxxxxxxxx 
+< Memory location #         82 : xxxxxxxxxxxxxxxx 
+< Memory location #         83 : xxxxxxxxxxxxxxxx 
+< Memory location #         84 : xxxxxxxxxxxxxxxx 
+< Memory location #         85 : xxxxxxxxxxxxxxxx 
+< Memory location #         86 : xxxxxxxxxxxxxxxx 
+< Memory location #         87 : xxxxxxxxxxxxxxxx 
+< Memory location #         88 : xxxxxxxxxxxxxxxx 
+< Memory location #         89 : xxxxxxxxxxxxxxxx 
+< Memory location #         90 : xxxxxxxxxxxxxxxx 
+< Memory location #         91 : xxxxxxxxxxxxxxxx 
+< Memory location #         92 : xxxxxxxxxxxxxxxx 
+< Memory location #         93 : xxxxxxxxxxxxxxxx 
+< Memory location #         94 : xxxxxxxxxxxxxxxx 
+< Memory location #         95 : xxxxxxxxxxxxxxxx 
+< Memory location #         96 : xxxxxxxxxxxxxxxx 
+< Memory location #         97 : xxxxxxxxxxxxxxxx 
+< Memory location #         98 : xxxxxxxxxxxxxxxx 
+< Memory location #         99 : xxxxxxxxxxxxxxxx 
+< Memory location #        100 : xxxxxxxxxxxxxxxx 
+< Memory location #        101 : xxxxxxxxxxxxxxxx 
+< Memory location #        102 : xxxxxxxxxxxxxxxx 
+< Memory location #        103 : xxxxxxxxxxxxxxxx 
+< Memory location #        104 : xxxxxxxxxxxxxxxx 
+< Memory location #        105 : xxxxxxxxxxxxxxxx 
+< Memory location #        106 : xxxxxxxxxxxxxxxx 
+< Memory location #        107 : xxxxxxxxxxxxxxxx 
+< Memory location #        108 : xxxxxxxxxxxxxxxx 
+< Memory location #        109 : xxxxxxxxxxxxxxxx 
+< Memory location #        110 : xxxxxxxxxxxxxxxx 
+< Memory location #        111 : xxxxxxxxxxxxxxxx 
+< Memory location #        112 : xxxxxxxxxxxxxxxx 
+< Memory location #        113 : xxxxxxxxxxxxxxxx 
+< Memory location #        114 : xxxxxxxxxxxxxxxx 
+< Memory location #        115 : xxxxxxxxxxxxxxxx 
+< Memory location #        116 : xxxxxxxxxxxxxxxx 
+< Memory location #        117 : xxxxxxxxxxxxxxxx 
+< Memory location #        118 : xxxxxxxxxxxxxxxx 
+< Memory location #        119 : xxxxxxxxxxxxxxxx 
+< Memory location #        120 : xxxxxxxxxxxxxxxx 
+< Memory location #        121 : xxxxxxxxxxxxxxxx 
+< Memory location #        122 : xxxxxxxxxxxxxxxx 
+< Memory location #        123 : xxxxxxxxxxxxxxxx 
+< Memory location #        124 : xxxxxxxxxxxxxxxx 
+< Memory location #        125 : xxxxxxxxxxxxxxxx 
+< Memory location #        126 : xxxxxxxxxxxxxxxx 
+< Memory location #        127 : xxxxxxxxxxxxxxxx 
+---
+> Memory location #          0 : 0000000000000000 
+> Memory location #          1 : 1111111111111111 
+> Memory location #          2 : 2222222222222222 
+> Memory location #          3 : 3333333333333333 
+> Memory location #          4 : 4444444444444444 
+> Memory location #          5 : 5555555555555555 
+> Memory location #          6 : 6666666666666666 
+> Memory location #          7 : 7777777777777777 
+> Memory location #          8 : 8888888888888888 
+> Memory location #          9 : 9999999999999999 
+> Memory location #         10 : aaaaaaaaaaaaaaaa 
+> Memory location #         11 : bbbbbbbbbbbbbbbb 
+> Memory location #         12 : cccccccccccccccc 
+> Memory location #         13 : dddddddddddddddd 
+> Memory location #         14 : eeeeeeeeeeeeeeee 
+> Memory location #         15 : ffffffffffffffff 
+> Memory location #         16 : 0f0f0f0f0f0f0f0f 
+> Memory location #         17 : 1e1e1e1e1e1e1e1e 
+> Memory location #         18 : 2d2d2d2d2d2d2d2d 
+> Memory location #         19 : 3c3c3c3c3c3c3c3c 
+> Memory location #         20 : 4b4b4b4b4b4b4b4b 
+> Memory location #         21 : 5a5a5a5a5a5a5a5a 
+> Memory location #         22 : 6969696969696969 
+> Memory location #         23 : 7878787878787878 
+> Memory location #         24 : 8787878787878787 
+> Memory location #         25 : 9696969696969696 
+> Memory location #         26 : a5a5a5a5a5a5a5a5 
+> Memory location #         27 : b4b4b4b4b4b4b4b4 
+> Memory location #         28 : c3c3c3c3c3c3c3c3 
+> Memory location #         29 : d2d2d2d2d2d2d2d2 
+> Memory location #         30 : e1e1e1e1e1e1e1e1 
+> Memory location #         31 : f0f0f0f0f0f0f0f0 
+> Memory location #         32 : 0000000000000000 
+> Memory location #         33 : 02060a0f0e0a0602 
+> Memory location #         34 : dddddddddddddddd 
+> Memory location #         35 : 4444444444444444 
+> Memory location #         36 : 2d2d2d2d2d2d2d2d 
+> Memory location #         37 : 3333333333333333 
+> Memory location #         38 : 4f4f4f4f4f4f4f4f 
+> Memory location #         39 : 00e100e100e100e1 
+> Memory location #         40 : 4b4b4b4b4b4b4b4b 
+> Memory location #         41 : 2222222222222222 
+> Memory location #         42 : 0000000000000000 
+> Memory location #         43 : 33333333c462f9b6 
+> Memory location #         44 : 2c4a0ff22c4a0ff2 
+> Memory location #         45 : 0000000000000000 
+> Memory location #         46 : f6f6f6f68825bd79 
+> Memory location #         47 : 07ad9ffe7df74cc4 
+> Memory location #         48 : 00a300a300c400c4 
+> Memory location #         49 : 49f49f4960b60b61 
+> Memory location #         50 : 4f4f4f4f4f4f4f4f 
+> Memory location #         51 : 00000000f751ca85 
+> Memory location #         52 : 1234567876543210 
+> Memory location #         53 : 0b2cedf902db6a04 
+> Memory location #         54 : 0051005100620062 
+> Memory location #         55 : 9797979797979797 
+> Memory location #         56 : 6868686797979798 
+> Memory location #         57 : 07a98ae868e640c4 
+> Memory location #         58 : 000000f5000001f7 
+> Memory location #         59 : 0000000000000000 
+> Memory location #         60 : f2f2f2f2f2f2f2f2 
+> Memory location #         61 : 048d159e1d950c84 
+> Memory location #         62 : 8888888888888888 
+> Memory location #         63 : 048d0c84048d0c84 
+> Memory location #         64 : 0000000000000000 
+> Memory location #         65 : 1616161516161615 
+> Memory location #         66 : bbbbbbbbbbbbbbbb 
+> Memory location #         67 : e7e7e7e7e7e7e7e7 
+> Memory location #         68 : 6666666666666666 
+> Memory location #         69 : 7878787878787878 
+> Memory location #         70 : 0000000000000000 
+> Memory location #         71 : 3333333333333333 
+> Memory location #         72 : c3c3c3c3c3c3c3c3 
+> Memory location #         73 : 27272726d8d8d8d9 
+> Memory location #         74 : 0000000000000000 
+> Memory location #         75 : 1982ec55aa40d76e 
+> Memory location #         76 : bbbbbbbbbbbbbbbb 
+> Memory location #         77 : 4141414141414141 
+> Memory location #         78 : 060606060e0e0e0e 
+> Memory location #         79 : 7f7f7f7e7f7f7f7e 
+> Memory location #         80 : 00000000004e4e4e 
+> Memory location #         81 : 1e1e1e1e1e1e1e1e 
+> Memory location #         82 : 1818181810101010 
+> Memory location #         83 : 003e003e003e003e 
+> Memory location #         84 : 0f0f0f0f0f0f0f0f 
+> Memory location #         85 : 0f0f0f0f0f0f0f0f 
+> Memory location #         86 : 9696969696969697 
+> Memory location #         87 : f8f8f8f9f8f8f8f9 
+> Memory location #         88 : b5fc4287631cd691 
+> Memory location #         89 : ffff2d2dffff2d2d 
+> Memory location #         90 : e7e4e7e4e7e4e7e4 
+> Memory location #         91 : 0003000300030003 
+> Memory location #         92 : a5a5a5a5a5a5a5a5 
+> Memory location #         93 : d7d7d7d7d7d7d7d7 
+> Memory location #         94 : 641fdb968acf1358 
+> Memory location #         95 : 0001000200000006 
+> Memory location #         96 : 0000000000000000 
+> Memory location #         97 : 0000000000000000 
+> Memory location #         98 : 0000000000000000 
+> Memory location #         99 : 0000000000000000 
+> Memory location #        100 : 0000000000000000 
+> Memory location #        101 : 0000000000000000 
+> Memory location #        102 : 0000000000000000 
+> Memory location #        103 : 0000000000000000 
+> Memory location #        104 : 0000000000000000 
+> Memory location #        105 : 0000000000000000 
+> Memory location #        106 : 0000000000000000 
+> Memory location #        107 : 0000000000000000 
+> Memory location #        108 : 0000000000000000 
+> Memory location #        109 : 0000000000000000 
+> Memory location #        110 : 0000000000000000 
+> Memory location #        111 : 0000000000000000 
+> Memory location #        112 : 0000000000000000 
+> Memory location #        113 : 0000000000000000 
+> Memory location #        114 : 0000000000000000 
+> Memory location #        115 : 0000000000000000 
+> Memory location #        116 : 0000000000000000 
+> Memory location #        117 : 0000000000000000 
+> Memory location #        118 : 0000000000000000 
+> Memory location #        119 : 0000000000000000 
+> Memory location #        120 : 0000000000000000 
+> Memory location #        121 : 0000000000000000 
+> Memory location #        122 : 0000000000000000 
+> Memory location #        123 : 0000000000000000 
+> Memory location #        124 : 0000000000000000 
+> Memory location #        125 : 0000000000000000 
+> Memory location #        126 : 0000000000000000 
+> Memory location #        127 : 0000000000000000 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.2.dump cmp_test.dmem2.dump
+Files /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.2.dump and cmp_test.dmem2.dump differ
+1,128c1,128
+< Memory location #          0 : 00010002000abcd3 
+< Memory location #          1 : 400300020000ed20 
+< Memory location #          2 : 40010002000002b1 
+< Memory location #          3 : xxxxxxxxxxxxxxxx 
+< Memory location #          4 : xxxxxxxxxxxxxxxx 
+< Memory location #          5 : xxxxxxxxxxxxxxxx 
+< Memory location #          6 : xxxxxxxxxxxxxxxx 
+< Memory location #          7 : xxxxxxxxxxxxxxxx 
+< Memory location #          8 : xxxxxxxxxxxxxxxx 
+< Memory location #          9 : xxxxxxxxxxxxxxxx 
+< Memory location #         10 : 80000001000005d2 
+< Memory location #         11 : 40000003eac24f12 
+< Memory location #         12 : c000000000000ce2 
+< Memory location #         13 : xxxxxxxxxxxxxxxx 
+< Memory location #         14 : xxxxxxxxxxxxxxxx 
+< Memory location #         15 : xxxxxxxxxxxxxxxx 
+< Memory location #         16 : xxxxxxxxxxxxxxxx 
+< Memory location #         17 : xxxxxxxxxxxxxxxx 
+< Memory location #         18 : xxxxxxxxxxxxxxxx 
+< Memory location #         19 : xxxxxxxxxxxxxxxx 
+< Memory location #         20 : xxxxxxxxxxxxxxxx 
+< Memory location #         21 : xxxxxxxxxxxxxxxx 
+< Memory location #         22 : xxxxxxxxxxxxxxxx 
+< Memory location #         23 : xxxxxxxxxxxxxxxx 
+< Memory location #         24 : xxxxxxxxxxxxxxxx 
+< Memory location #         25 : xxxxxxxxxxxxxxxx 
+< Memory location #         26 : xxxxxxxxxxxxxxxx 
+< Memory location #         27 : xxxxxxxxxxxxxxxx 
+< Memory location #         28 : xxxxxxxxxxxxxxxx 
+< Memory location #         29 : xxxxxxxxxxxxxxxx 
+< Memory location #         30 : xxxxxxxxxxxxxxxx 
+< Memory location #         31 : xxxxxxxxxxxxxxxx 
+< Memory location #         32 : xxxxxxxxxxxxxxxx 
+< Memory location #         33 : xxxxxxxxxxxxxxxx 
+< Memory location #         34 : xxxxxxxxxxxxxxxx 
+< Memory location #         35 : xxxxxxxxxxxxxxxx 
+< Memory location #         36 : xxxxxxxxxxxxxxxx 
+< Memory location #         37 : xxxxxxxxxxxxxxxx 
+< Memory location #         38 : xxxxxxxxxxxxxxxx 
+< Memory location #         39 : xxxxxxxxxxxxxxxx 
+< Memory location #         40 : xxxxxxxxxxxxxxxx 
+< Memory location #         41 : xxxxxxxxxxxxxxxx 
+< Memory location #         42 : xxxxxxxxxxxxxxxx 
+< Memory location #         43 : xxxxxxxxxxxxxxxx 
+< Memory location #         44 : xxxxxxxxxxxxxxxx 
+< Memory location #         45 : xxxxxxxxxxxxxxxx 
+< Memory location #         46 : xxxxxxxxxxxxxxxx 
+< Memory location #         47 : xxxxxxxxxxxxxxxx 
+< Memory location #         48 : xxxxxxxxxxxxxxxx 
+< Memory location #         49 : xxxxxxxxxxxxxxxx 
+< Memory location #         50 : xxxxxxxxxxxxxxxx 
+< Memory location #         51 : xxxxxxxxxxxxxxxx 
+< Memory location #         52 : xxxxxxxxxxxxxxxx 
+< Memory location #         53 : xxxxxxxxxxxxxxxx 
+< Memory location #         54 : xxxxxxxxxxxxxxxx 
+< Memory location #         55 : xxxxxxxxxxxxxxxx 
+< Memory location #         56 : xxxxxxxxxxxxxxxx 
+< Memory location #         57 : xxxxxxxxxxxxxxxx 
+< Memory location #         58 : xxxxxxxxxxxxxxxx 
+< Memory location #         59 : xxxxxxxxxxxxxxxx 
+< Memory location #         60 : xxxxxxxxxxxxxxxx 
+< Memory location #         61 : xxxxxxxxxxxxxxxx 
+< Memory location #         62 : xxxxxxxxxxxxxxxx 
+< Memory location #         63 : xxxxxxxxxxxxxxxx 
+< Memory location #         64 : xxxxxxxxxxxxxxxx 
+< Memory location #         65 : xxxxxxxxxxxxxxxx 
+< Memory location #         66 : xxxxxxxxxxxxxxxx 
+< Memory location #         67 : xxxxxxxxxxxxxxxx 
+< Memory location #         68 : xxxxxxxxxxxxxxxx 
+< Memory location #         69 : xxxxxxxxxxxxxxxx 
+< Memory location #         70 : xxxxxxxxxxxxxxxx 
+< Memory location #         71 : xxxxxxxxxxxxxxxx 
+< Memory location #         72 : xxxxxxxxxxxxxxxx 
+< Memory location #         73 : xxxxxxxxxxxxxxxx 
+< Memory location #         74 : xxxxxxxxxxxxxxxx 
+< Memory location #         75 : xxxxxxxxxxxxxxxx 
+< Memory location #         76 : xxxxxxxxxxxxxxxx 
+< Memory location #         77 : xxxxxxxxxxxxxxxx 
+< Memory location #         78 : xxxxxxxxxxxxxxxx 
+< Memory location #         79 : xxxxxxxxxxxxxxxx 
+< Memory location #         80 : xxxxxxxxxxxxxxxx 
+< Memory location #         81 : xxxxxxxxxxxxxxxx 
+< Memory location #         82 : xxxxxxxxxxxxxxxx 
+< Memory location #         83 : xxxxxxxxxxxxxxxx 
+< Memory location #         84 : xxxxxxxxxxxxxxxx 
+< Memory location #         85 : xxxxxxxxxxxxxxxx 
+< Memory location #         86 : xxxxxxxxxxxxxxxx 
+< Memory location #         87 : xxxxxxxxxxxxxxxx 
+< Memory location #         88 : xxxxxxxxxxxxxxxx 
+< Memory location #         89 : xxxxxxxxxxxxxxxx 
+< Memory location #         90 : xxxxxxxxxxxxxxxx 
+< Memory location #         91 : xxxxxxxxxxxxxxxx 
+< Memory location #         92 : xxxxxxxxxxxxxxxx 
+< Memory location #         93 : xxxxxxxxxxxxxxxx 
+< Memory location #         94 : xxxxxxxxxxxxxxxx 
+< Memory location #         95 : xxxxxxxxxxxxxxxx 
+< Memory location #         96 : xxxxxxxxxxxxxxxx 
+< Memory location #         97 : xxxxxxxxxxxxxxxx 
+< Memory location #         98 : xxxxxxxxxxxxxxxx 
+< Memory location #         99 : xxxxxxxxxxxxxxxx 
+< Memory location #        100 : xxxxxxxxxxxxxxxx 
+< Memory location #        101 : xxxxxxxxxxxxxxxx 
+< Memory location #        102 : xxxxxxxxxxxxxxxx 
+< Memory location #        103 : xxxxxxxxxxxxxxxx 
+< Memory location #        104 : xxxxxxxxxxxxxxxx 
+< Memory location #        105 : xxxxxxxxxxxxxxxx 
+< Memory location #        106 : xxxxxxxxxxxxxxxx 
+< Memory location #        107 : xxxxxxxxxxxxxxxx 
+< Memory location #        108 : xxxxxxxxxxxxxxxx 
+< Memory location #        109 : xxxxxxxxxxxxxxxx 
+< Memory location #        110 : xxxxxxxxxxxxxxxx 
+< Memory location #        111 : xxxxxxxxxxxxxxxx 
+< Memory location #        112 : xxxxxxxxxxxxxxxx 
+< Memory location #        113 : xxxxxxxxxxxxxxxx 
+< Memory location #        114 : xxxxxxxxxxxxxxxx 
+< Memory location #        115 : xxxxxxxxxxxxxxxx 
+< Memory location #        116 : xxxxxxxxxxxxxxxx 
+< Memory location #        117 : xxxxxxxxxxxxxxxx 
+< Memory location #        118 : xxxxxxxxxxxxxxxx 
+< Memory location #        119 : xxxxxxxxxxxxxxxx 
+< Memory location #        120 : xxxxxxxxxxxxxxxx 
+< Memory location #        121 : xxxxxxxxxxxxxxxx 
+< Memory location #        122 : xxxxxxxxxxxxxxxx 
+< Memory location #        123 : xxxxxxxxxxxxxxxx 
+< Memory location #        124 : xxxxxxxxxxxxxxxx 
+< Memory location #        125 : xxxxxxxxxxxxxxxx 
+< Memory location #        126 : xxxxxxxxxxxxxxxx 
+< Memory location #        127 : xxxxxxxxxxxxxxxx 
+---
+> Memory location #          0 : 0000000000000000 
+> Memory location #          1 : 1111111111111111 
+> Memory location #          2 : 2222222222222222 
+> Memory location #          3 : 3333333333333333 
+> Memory location #          4 : 4444444444444444 
+> Memory location #          5 : 5555555555555555 
+> Memory location #          6 : 6666666666666666 
+> Memory location #          7 : 7777777777777777 
+> Memory location #          8 : 8888888888888888 
+> Memory location #          9 : 9999999999999999 
+> Memory location #         10 : aaaaaaaaaaaaaaaa 
+> Memory location #         11 : bbbbbbbbbbbbbbbb 
+> Memory location #         12 : cccccccccccccccc 
+> Memory location #         13 : dddddddddddddddd 
+> Memory location #         14 : eeeeeeeeeeeeeeee 
+> Memory location #         15 : ffffffffffffffff 
+> Memory location #         16 : 0f0f0f0f0f0f0f0f 
+> Memory location #         17 : 1e1e1e1e1e1e1e1e 
+> Memory location #         18 : 2d2d2d2d2d2d2d2d 
+> Memory location #         19 : 3c3c3c3c3c3c3c3c 
+> Memory location #         20 : 4b4b4b4b4b4b4b4b 
+> Memory location #         21 : 5a5a5a5a5a5a5a5a 
+> Memory location #         22 : 6969696969696969 
+> Memory location #         23 : 7878787878787878 
+> Memory location #         24 : 8787878787878787 
+> Memory location #         25 : 9696969696969696 
+> Memory location #         26 : a5a5a5a5a5a5a5a5 
+> Memory location #         27 : b4b4b4b4b4b4b4b4 
+> Memory location #         28 : c3c3c3c3c3c3c3c3 
+> Memory location #         29 : d2d2d2d2d2d2d2d2 
+> Memory location #         30 : e1e1e1e1e1e1e1e1 
+> Memory location #         31 : f0f0f0f0f0f0f0f0 
+> Memory location #         32 : 0000000000000000 
+> Memory location #         33 : 02060a0f0e0a0602 
+> Memory location #         34 : dddddddddddddddd 
+> Memory location #         35 : 4444444444444444 
+> Memory location #         36 : 2d2d2d2d2d2d2d2d 
+> Memory location #         37 : 3333333333333333 
+> Memory location #         38 : 4f4f4f4f4f4f4f4f 
+> Memory location #         39 : 00e100e100e100e1 
+> Memory location #         40 : 4b4b4b4b4b4b4b4b 
+> Memory location #         41 : 2222222222222222 
+> Memory location #         42 : 0000000000000000 
+> Memory location #         43 : 33333333c462f9b6 
+> Memory location #         44 : 2c4a0ff22c4a0ff2 
+> Memory location #         45 : 0000000000000000 
+> Memory location #         46 : f6f6f6f68825bd79 
+> Memory location #         47 : 07ad9ffe7df74cc4 
+> Memory location #         48 : 00a300a300c400c4 
+> Memory location #         49 : 49f49f4960b60b61 
+> Memory location #         50 : 4f4f4f4f4f4f4f4f 
+> Memory location #         51 : 00000000f751ca85 
+> Memory location #         52 : 1234567876543210 
+> Memory location #         53 : 0b2cedf902db6a04 
+> Memory location #         54 : 0051005100620062 
+> Memory location #         55 : 9797979797979797 
+> Memory location #         56 : 6868686797979798 
+> Memory location #         57 : 07a98ae868e640c4 
+> Memory location #         58 : 000000f5000001f7 
+> Memory location #         59 : 0000000000000000 
+> Memory location #         60 : f2f2f2f2f2f2f2f2 
+> Memory location #         61 : 048d159e1d950c84 
+> Memory location #         62 : 8888888888888888 
+> Memory location #         63 : 048d0c84048d0c84 
+> Memory location #         64 : 0000000000000000 
+> Memory location #         65 : 1616161516161615 
+> Memory location #         66 : bbbbbbbbbbbbbbbb 
+> Memory location #         67 : e7e7e7e7e7e7e7e7 
+> Memory location #         68 : 6666666666666666 
+> Memory location #         69 : 7878787878787878 
+> Memory location #         70 : 0000000000000000 
+> Memory location #         71 : 3333333333333333 
+> Memory location #         72 : c3c3c3c3c3c3c3c3 
+> Memory location #         73 : 27272726d8d8d8d9 
+> Memory location #         74 : 0000000000000000 
+> Memory location #         75 : 1982ec55aa40d76e 
+> Memory location #         76 : bbbbbbbbbbbbbbbb 
+> Memory location #         77 : 4141414141414141 
+> Memory location #         78 : 060606060e0e0e0e 
+> Memory location #         79 : 7f7f7f7e7f7f7f7e 
+> Memory location #         80 : 00000000004e4e4e 
+> Memory location #         81 : 1e1e1e1e1e1e1e1e 
+> Memory location #         82 : 1818181810101010 
+> Memory location #         83 : 003e003e003e003e 
+> Memory location #         84 : 0f0f0f0f0f0f0f0f 
+> Memory location #         85 : 0f0f0f0f0f0f0f0f 
+> Memory location #         86 : 9696969696969697 
+> Memory location #         87 : f8f8f8f9f8f8f8f9 
+> Memory location #         88 : b5fc4287631cd691 
+> Memory location #         89 : ffff2d2dffff2d2d 
+> Memory location #         90 : e7e4e7e4e7e4e7e4 
+> Memory location #         91 : 0003000300030003 
+> Memory location #         92 : a5a5a5a5a5a5a5a5 
+> Memory location #         93 : d7d7d7d7d7d7d7d7 
+> Memory location #         94 : 641fdb968acf1358 
+> Memory location #         95 : 0001000200000006 
+> Memory location #         96 : 0000000000000000 
+> Memory location #         97 : 0000000000000000 
+> Memory location #         98 : 0000000000000000 
+> Memory location #         99 : 0000000000000000 
+> Memory location #        100 : 0000000000000000 
+> Memory location #        101 : 0000000000000000 
+> Memory location #        102 : 0000000000000000 
+> Memory location #        103 : 0000000000000000 
+> Memory location #        104 : 0000000000000000 
+> Memory location #        105 : 0000000000000000 
+> Memory location #        106 : 0000000000000000 
+> Memory location #        107 : 0000000000000000 
+> Memory location #        108 : 0000000000000000 
+> Memory location #        109 : 0000000000000000 
+> Memory location #        110 : 0000000000000000 
+> Memory location #        111 : 0000000000000000 
+> Memory location #        112 : 0000000000000000 
+> Memory location #        113 : 0000000000000000 
+> Memory location #        114 : 0000000000000000 
+> Memory location #        115 : 0000000000000000 
+> Memory location #        116 : 0000000000000000 
+> Memory location #        117 : 0000000000000000 
+> Memory location #        118 : 0000000000000000 
+> Memory location #        119 : 0000000000000000 
+> Memory location #        120 : 0000000000000000 
+> Memory location #        121 : 0000000000000000 
+> Memory location #        122 : 0000000000000000 
+> Memory location #        123 : 0000000000000000 
+> Memory location #        124 : 0000000000000000 
+> Memory location #        125 : 0000000000000000 
+> Memory location #        126 : 0000000000000000 
+> Memory location #        127 : 0000000000000000 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.3.dump cmp_test.dmem3.dump
+Files /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.3.dump and cmp_test.dmem3.dump differ
+1,128c1,128
+< Memory location #          0 : 0001000300000470 
+< Memory location #          1 : 4003000300000bd1 
+< Memory location #          2 : 40010003eac24f12 
+< Memory location #          3 : xxxxxxxxxxxxxxxx 
+< Memory location #          4 : xxxxxxxxxxxxxxxx 
+< Memory location #          5 : xxxxxxxxxxxxxxxx 
+< Memory location #          6 : xxxxxxxxxxxxxxxx 
+< Memory location #          7 : xxxxxxxxxxxxxxxx 
+< Memory location #          8 : xxxxxxxxxxxxxxxx 
+< Memory location #          9 : xxxxxxxxxxxxxxxx 
+< Memory location #         10 : 00000002000abcd3 
+< Memory location #         11 : c0000001000aefd3 
+< Memory location #         12 : c000000000000df3 
+< Memory location #         13 : xxxxxxxxxxxxxxxx 
+< Memory location #         14 : xxxxxxxxxxxxxxxx 
+< Memory location #         15 : xxxxxxxxxxxxxxxx 
+< Memory location #         16 : xxxxxxxxxxxxxxxx 
+< Memory location #         17 : xxxxxxxxxxxxxxxx 
+< Memory location #         18 : xxxxxxxxxxxxxxxx 
+< Memory location #         19 : xxxxxxxxxxxxxxxx 
+< Memory location #         20 : xxxxxxxxxxxxxxxx 
+< Memory location #         21 : xxxxxxxxxxxxxxxx 
+< Memory location #         22 : xxxxxxxxxxxxxxxx 
+< Memory location #         23 : xxxxxxxxxxxxxxxx 
+< Memory location #         24 : xxxxxxxxxxxxxxxx 
+< Memory location #         25 : xxxxxxxxxxxxxxxx 
+< Memory location #         26 : xxxxxxxxxxxxxxxx 
+< Memory location #         27 : xxxxxxxxxxxxxxxx 
+< Memory location #         28 : xxxxxxxxxxxxxxxx 
+< Memory location #         29 : xxxxxxxxxxxxxxxx 
+< Memory location #         30 : xxxxxxxxxxxxxxxx 
+< Memory location #         31 : xxxxxxxxxxxxxxxx 
+< Memory location #         32 : xxxxxxxxxxxxxxxx 
+< Memory location #         33 : xxxxxxxxxxxxxxxx 
+< Memory location #         34 : xxxxxxxxxxxxxxxx 
+< Memory location #         35 : xxxxxxxxxxxxxxxx 
+< Memory location #         36 : xxxxxxxxxxxxxxxx 
+< Memory location #         37 : xxxxxxxxxxxxxxxx 
+< Memory location #         38 : xxxxxxxxxxxxxxxx 
+< Memory location #         39 : xxxxxxxxxxxxxxxx 
+< Memory location #         40 : xxxxxxxxxxxxxxxx 
+< Memory location #         41 : xxxxxxxxxxxxxxxx 
+< Memory location #         42 : xxxxxxxxxxxxxxxx 
+< Memory location #         43 : xxxxxxxxxxxxxxxx 
+< Memory location #         44 : xxxxxxxxxxxxxxxx 
+< Memory location #         45 : xxxxxxxxxxxxxxxx 
+< Memory location #         46 : xxxxxxxxxxxxxxxx 
+< Memory location #         47 : xxxxxxxxxxxxxxxx 
+< Memory location #         48 : xxxxxxxxxxxxxxxx 
+< Memory location #         49 : xxxxxxxxxxxxxxxx 
+< Memory location #         50 : xxxxxxxxxxxxxxxx 
+< Memory location #         51 : xxxxxxxxxxxxxxxx 
+< Memory location #         52 : xxxxxxxxxxxxxxxx 
+< Memory location #         53 : xxxxxxxxxxxxxxxx 
+< Memory location #         54 : xxxxxxxxxxxxxxxx 
+< Memory location #         55 : xxxxxxxxxxxxxxxx 
+< Memory location #         56 : xxxxxxxxxxxxxxxx 
+< Memory location #         57 : xxxxxxxxxxxxxxxx 
+< Memory location #         58 : xxxxxxxxxxxxxxxx 
+< Memory location #         59 : xxxxxxxxxxxxxxxx 
+< Memory location #         60 : xxxxxxxxxxxxxxxx 
+< Memory location #         61 : xxxxxxxxxxxxxxxx 
+< Memory location #         62 : xxxxxxxxxxxxxxxx 
+< Memory location #         63 : xxxxxxxxxxxxxxxx 
+< Memory location #         64 : xxxxxxxxxxxxxxxx 
+< Memory location #         65 : xxxxxxxxxxxxxxxx 
+< Memory location #         66 : xxxxxxxxxxxxxxxx 
+< Memory location #         67 : xxxxxxxxxxxxxxxx 
+< Memory location #         68 : xxxxxxxxxxxxxxxx 
+< Memory location #         69 : xxxxxxxxxxxxxxxx 
+< Memory location #         70 : xxxxxxxxxxxxxxxx 
+< Memory location #         71 : xxxxxxxxxxxxxxxx 
+< Memory location #         72 : xxxxxxxxxxxxxxxx 
+< Memory location #         73 : xxxxxxxxxxxxxxxx 
+< Memory location #         74 : xxxxxxxxxxxxxxxx 
+< Memory location #         75 : xxxxxxxxxxxxxxxx 
+< Memory location #         76 : xxxxxxxxxxxxxxxx 
+< Memory location #         77 : xxxxxxxxxxxxxxxx 
+< Memory location #         78 : xxxxxxxxxxxxxxxx 
+< Memory location #         79 : xxxxxxxxxxxxxxxx 
+< Memory location #         80 : xxxxxxxxxxxxxxxx 
+< Memory location #         81 : xxxxxxxxxxxxxxxx 
+< Memory location #         82 : xxxxxxxxxxxxxxxx 
+< Memory location #         83 : xxxxxxxxxxxxxxxx 
+< Memory location #         84 : xxxxxxxxxxxxxxxx 
+< Memory location #         85 : xxxxxxxxxxxxxxxx 
+< Memory location #         86 : xxxxxxxxxxxxxxxx 
+< Memory location #         87 : xxxxxxxxxxxxxxxx 
+< Memory location #         88 : xxxxxxxxxxxxxxxx 
+< Memory location #         89 : xxxxxxxxxxxxxxxx 
+< Memory location #         90 : xxxxxxxxxxxxxxxx 
+< Memory location #         91 : xxxxxxxxxxxxxxxx 
+< Memory location #         92 : xxxxxxxxxxxxxxxx 
+< Memory location #         93 : xxxxxxxxxxxxxxxx 
+< Memory location #         94 : xxxxxxxxxxxxxxxx 
+< Memory location #         95 : xxxxxxxxxxxxxxxx 
+< Memory location #         96 : xxxxxxxxxxxxxxxx 
+< Memory location #         97 : xxxxxxxxxxxxxxxx 
+< Memory location #         98 : xxxxxxxxxxxxxxxx 
+< Memory location #         99 : xxxxxxxxxxxxxxxx 
+< Memory location #        100 : xxxxxxxxxxxxxxxx 
+< Memory location #        101 : xxxxxxxxxxxxxxxx 
+< Memory location #        102 : xxxxxxxxxxxxxxxx 
+< Memory location #        103 : xxxxxxxxxxxxxxxx 
+< Memory location #        104 : xxxxxxxxxxxxxxxx 
+< Memory location #        105 : xxxxxxxxxxxxxxxx 
+< Memory location #        106 : xxxxxxxxxxxxxxxx 
+< Memory location #        107 : xxxxxxxxxxxxxxxx 
+< Memory location #        108 : xxxxxxxxxxxxxxxx 
+< Memory location #        109 : xxxxxxxxxxxxxxxx 
+< Memory location #        110 : xxxxxxxxxxxxxxxx 
+< Memory location #        111 : xxxxxxxxxxxxxxxx 
+< Memory location #        112 : xxxxxxxxxxxxxxxx 
+< Memory location #        113 : xxxxxxxxxxxxxxxx 
+< Memory location #        114 : xxxxxxxxxxxxxxxx 
+< Memory location #        115 : xxxxxxxxxxxxxxxx 
+< Memory location #        116 : xxxxxxxxxxxxxxxx 
+< Memory location #        117 : xxxxxxxxxxxxxxxx 
+< Memory location #        118 : xxxxxxxxxxxxxxxx 
+< Memory location #        119 : xxxxxxxxxxxxxxxx 
+< Memory location #        120 : xxxxxxxxxxxxxxxx 
+< Memory location #        121 : xxxxxxxxxxxxxxxx 
+< Memory location #        122 : xxxxxxxxxxxxxxxx 
+< Memory location #        123 : xxxxxxxxxxxxxxxx 
+< Memory location #        124 : xxxxxxxxxxxxxxxx 
+< Memory location #        125 : xxxxxxxxxxxxxxxx 
+< Memory location #        126 : xxxxxxxxxxxxxxxx 
+< Memory location #        127 : xxxxxxxxxxxxxxxx 
+---
+> Memory location #          0 : 0000000000000000 
+> Memory location #          1 : 1111111111111111 
+> Memory location #          2 : 2222222222222222 
+> Memory location #          3 : 3333333333333333 
+> Memory location #          4 : 4444444444444444 
+> Memory location #          5 : 5555555555555555 
+> Memory location #          6 : 6666666666666666 
+> Memory location #          7 : 7777777777777777 
+> Memory location #          8 : 8888888888888888 
+> Memory location #          9 : 9999999999999999 
+> Memory location #         10 : aaaaaaaaaaaaaaaa 
+> Memory location #         11 : bbbbbbbbbbbbbbbb 
+> Memory location #         12 : cccccccccccccccc 
+> Memory location #         13 : dddddddddddddddd 
+> Memory location #         14 : eeeeeeeeeeeeeeee 
+> Memory location #         15 : ffffffffffffffff 
+> Memory location #         16 : 0f0f0f0f0f0f0f0f 
+> Memory location #         17 : 1e1e1e1e1e1e1e1e 
+> Memory location #         18 : 2d2d2d2d2d2d2d2d 
+> Memory location #         19 : 3c3c3c3c3c3c3c3c 
+> Memory location #         20 : 4b4b4b4b4b4b4b4b 
+> Memory location #         21 : 5a5a5a5a5a5a5a5a 
+> Memory location #         22 : 6969696969696969 
+> Memory location #         23 : 7878787878787878 
+> Memory location #         24 : 8787878787878787 
+> Memory location #         25 : 9696969696969696 
+> Memory location #         26 : a5a5a5a5a5a5a5a5 
+> Memory location #         27 : b4b4b4b4b4b4b4b4 
+> Memory location #         28 : c3c3c3c3c3c3c3c3 
+> Memory location #         29 : d2d2d2d2d2d2d2d2 
+> Memory location #         30 : e1e1e1e1e1e1e1e1 
+> Memory location #         31 : f0f0f0f0f0f0f0f0 
+> Memory location #         32 : 0000000000000000 
+> Memory location #         33 : 02060a0f0e0a0602 
+> Memory location #         34 : dddddddddddddddd 
+> Memory location #         35 : 4444444444444444 
+> Memory location #         36 : 2d2d2d2d2d2d2d2d 
+> Memory location #         37 : 3333333333333333 
+> Memory location #         38 : 4f4f4f4f4f4f4f4f 
+> Memory location #         39 : 00e100e100e100e1 
+> Memory location #         40 : 4b4b4b4b4b4b4b4b 
+> Memory location #         41 : 2222222222222222 
+> Memory location #         42 : 0000000000000000 
+> Memory location #         43 : 33333333c462f9b6 
+> Memory location #         44 : 2c4a0ff22c4a0ff2 
+> Memory location #         45 : 0000000000000000 
+> Memory location #         46 : f6f6f6f68825bd79 
+> Memory location #         47 : 07ad9ffe7df74cc4 
+> Memory location #         48 : 00a300a300c400c4 
+> Memory location #         49 : 49f49f4960b60b61 
+> Memory location #         50 : 4f4f4f4f4f4f4f4f 
+> Memory location #         51 : 00000000f751ca85 
+> Memory location #         52 : 1234567876543210 
+> Memory location #         53 : 0b2cedf902db6a04 
+> Memory location #         54 : 0051005100620062 
+> Memory location #         55 : 9797979797979797 
+> Memory location #         56 : 6868686797979798 
+> Memory location #         57 : 07a98ae868e640c4 
+> Memory location #         58 : 000000f5000001f7 
+> Memory location #         59 : 0000000000000000 
+> Memory location #         60 : f2f2f2f2f2f2f2f2 
+> Memory location #         61 : 048d159e1d950c84 
+> Memory location #         62 : 8888888888888888 
+> Memory location #         63 : 048d0c84048d0c84 
+> Memory location #         64 : 0000000000000000 
+> Memory location #         65 : 1616161516161615 
+> Memory location #         66 : bbbbbbbbbbbbbbbb 
+> Memory location #         67 : e7e7e7e7e7e7e7e7 
+> Memory location #         68 : 6666666666666666 
+> Memory location #         69 : 7878787878787878 
+> Memory location #         70 : 0000000000000000 
+> Memory location #         71 : 3333333333333333 
+> Memory location #         72 : c3c3c3c3c3c3c3c3 
+> Memory location #         73 : 27272726d8d8d8d9 
+> Memory location #         74 : 0000000000000000 
+> Memory location #         75 : 1982ec55aa40d76e 
+> Memory location #         76 : bbbbbbbbbbbbbbbb 
+> Memory location #         77 : 4141414141414141 
+> Memory location #         78 : 060606060e0e0e0e 
+> Memory location #         79 : 7f7f7f7e7f7f7f7e 
+> Memory location #         80 : 00000000004e4e4e 
+> Memory location #         81 : 1e1e1e1e1e1e1e1e 
+> Memory location #         82 : 1818181810101010 
+> Memory location #         83 : 003e003e003e003e 
+> Memory location #         84 : 0f0f0f0f0f0f0f0f 
+> Memory location #         85 : 0f0f0f0f0f0f0f0f 
+> Memory location #         86 : 9696969696969697 
+> Memory location #         87 : f8f8f8f9f8f8f8f9 
+> Memory location #         88 : b5fc4287631cd691 
+> Memory location #         89 : ffff2d2dffff2d2d 
+> Memory location #         90 : e7e4e7e4e7e4e7e4 
+> Memory location #         91 : 0003000300030003 
+> Memory location #         92 : a5a5a5a5a5a5a5a5 
+> Memory location #         93 : d7d7d7d7d7d7d7d7 
+> Memory location #         94 : 641fdb968acf1358 
+> Memory location #         95 : 0001000200000006 
+> Memory location #         96 : 0000000000000000 
+> Memory location #         97 : 0000000000000000 
+> Memory location #         98 : 0000000000000000 
+> Memory location #         99 : 0000000000000000 
+> Memory location #        100 : 0000000000000000 
+> Memory location #        101 : 0000000000000000 
+> Memory location #        102 : 0000000000000000 
+> Memory location #        103 : 0000000000000000 
+> Memory location #        104 : 0000000000000000 
+> Memory location #        105 : 0000000000000000 
+> Memory location #        106 : 0000000000000000 
+> Memory location #        107 : 0000000000000000 
+> Memory location #        108 : 0000000000000000 
+> Memory location #        109 : 0000000000000000 
+> Memory location #        110 : 0000000000000000 
+> Memory location #        111 : 0000000000000000 
+> Memory location #        112 : 0000000000000000 
+> Memory location #        113 : 0000000000000000 
+> Memory location #        114 : 0000000000000000 
+> Memory location #        115 : 0000000000000000 
+> Memory location #        116 : 0000000000000000 
+> Memory location #        117 : 0000000000000000 
+> Memory location #        118 : 0000000000000000 
+> Memory location #        119 : 0000000000000000 
+> Memory location #        120 : 0000000000000000 
+> Memory location #        121 : 0000000000000000 
+> Memory location #        122 : 0000000000000000 
+> Memory location #        123 : 0000000000000000 
+> Memory location #        124 : 0000000000000000 
+> Memory location #        125 : 0000000000000000 
+> Memory location #        126 : 0000000000000000 
+> Memory location #        127 : 0000000000000000 
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.4.dump cmp_test.dmem4.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.5.dump cmp_test.dmem5.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.6.dump cmp_test.dmem6.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.7.dump cmp_test.dmem7.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.8.dump cmp_test.dmem8.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.9.dump cmp_test.dmem9.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.10.dump cmp_test.dmem10.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.11.dump cmp_test.dmem11.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.12.dump cmp_test.dmem12.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.13.dump cmp_test.dmem13.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.14.dump cmp_test.dmem14.dump
+diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_41.15.dump cmp_test.dmem15.dump
+ 
+ 
 Running Test # 42 
 diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem0.dump
 diff --brief --ignore-all-space /home/viterbi/09/patilss/EE577B/Project/Phase3/test_cases/expected_dmem_42.dump cmp_test.dmem1.dump
